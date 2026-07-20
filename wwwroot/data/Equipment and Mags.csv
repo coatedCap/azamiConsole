@@ -1,0 +1,67 @@
+Grenades,,,,,,,,,,,,,,,,,,,,,,,
+Equipment Name,Ruble Cost,USD Cost,Description,Requirements,,,,,,,,,,,,,,,,,,,
+F-1 Frag Grenade,"?5,000",$500,"Soviet-era Fragmentation Grenade. 
+Looks a lot like a lemon. It's pay-load is the least effective, but it gets the job done with one good toss.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+RGD-5,"?6,000",$600,"Commonly found Post-WWII Soviet Hand Grenade. 
+A simple yet effective design that is still in use today by many middle-eastern nations.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+VOG-25,"?8,500",$850,"Jerry-rigged Hand Grenade using a VOG-25 Grenade with a removed warhead.
+Extremely Short-Fuse. Throw and forget.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+M18 Smoke Grenade,"?15,000","$1,500","Standard Issue Smoke Grenade, effective for crossing areas of dense gunfire under cover.",Loyalty 2,,,,,,,,,,,,,,,,,,,
+M84 Flashbang,"?16,500","$1,650","Standard Issue Flashbang, capable of blinding and deafening a number of individuals within it's radius.",Loyalty 2,,,,,,,,,,,,,,,,,,,
+M67 Frag Grenade,"?40,000","$4,000","Standard Issue American Frag Grenade.
+Highly Effective and Highly dangerous as a result of it's shrapnel.",Loyalty 3,,,,,,,,,,,,,,,,,,,
+Special Magazines (Ergonomics Design/Extended Mag) ,,,,,,,,,,,,,,,,,,,,,,,
+Equipment Name,Ruble Cost,USD Cost,Description,Ergonomics Bonus,Capacity,Caliber,Notes,Requirements,,,,,,,,,,,,,,,
+6L23 5.45x39 Magazine (Ergo +5),"?50,000","$5,000","Polymer Magazine for use in the AK74 and resulting compatible platforms.
+Comes in either Matte Black or Plum.",5,30,5.45x39mm,AK74,Loyalty 1,,,,,,,,,,,,,,,
+TROY Battlemag 5.56 Magazine (+5),"?50,000","$5,000","30 Round Polymer STANAG Mag for 5.56 systems.
+Extremely light, and allows for ease of loading.",5,30,5.56x45mm,STANAG NATO,Loyalty 1,,,,,,,,,,,,,,,
+"Glock 9x19 ""Long Boy"" 33 Round Mag","?20,000","$2,000",Company Produced 33 Round Glock Mag. Can be used for respective Vector Platforms.,,33,9x19mm,Vector/Glock,Loyalty 1,,,,,,,,,,,,,,,
+Glock .45 ACP KRISS Extended Mag ,"?40,000","$4,000",Company Produced 30 Round Glock Mag. Can be used for respective Vector Platforms.,,30,.45 ACP,Vector/Glock,Loyalty 1,,,,,,,,,,,,,,,
+MP7 4.6x30 40-Round Extended Mag,"?30,000","$3,000",Extended Mag for the MP7A1 and A2.,,40,4.6x30mm,MP7Ax,Loyalty 1,,,,,,,,,,,,,,,
+6L26 5.45x39 Magazine (+15 Rounds),"?55,000","$5,500","Polymer Extended Magazine for the AK74 and resulting platforms.
+Extends bullets in the mag by 15.",,45,5.45x39mm,AK74,Loyalty 2,,,,,,,,,,,,,,,
+HK PM Gen.2 5.56x45 STANAG (+15),"?70,000","$7,000","30 Round Polymer STANAG Mag for 5.56 systems. 
+It's stripped design on the magazine ensures a stable grip on it's body whilst loading it into the magwell.",15,30,5.56x45mm,STANAG NATO,Loyalty 2,,,,,,,,,,,,,,,
+SOK-12 12/76 Powermag,"?50,000","$5,000","MaxRound Powermag 20-Round Mag for the Saiga 12.
+Exceedingly Powerful, but can misfeed.",,20,12x70mm,Saiga-12,Loyalty 2,,,,,,,,,,,,,,,
+6L31 5.45x39 Magazine (+30 Rounds),"?60,000","$6,000","Polymer Stacked Magazine for the AK74 and resulting Platforms. 
+Design extends the mag by a whole 30, but will weigh down the user as a whole.",,60,5.45x39mm,"AK74 Platform, Weighty",Loyalty 3,,,,,,,,,,,,,,,
+Izhmash 7.62x39 Magazine (Ergo +5),"?50,000","$5,000","Metal Mag for the AK103 or any resulting platforms. 
+It's weight acts as a balancing point, letting the fire-arm feel stable towards the user.",5,30,7.62x39mm,AK103 Platform,Loyalty 3,,,,,,,,,,,,,,,
+PMAG 30 AK Gen 7.62 Magazine (Ergo +10),"?65,000","$6,500","Polymer Mag for the AK103 or any resulting platform. 
+Lighter design allows for ease of use by the operator. 
+Comes in Black or Banana Yellow (For whatever reason.)",10,30,7.62x39mm,AK103 Platform,Loyalty 3,,,,,,,,,,,,,,,
+5.56x45 Magpul PMAG D-60 Stanag Mag,"?65,000","$6,500","60 Round Polymer STANAG Mag for 5.56 Systems
+Upgrades AR-15 Platform rifles by a whole 30 Rounds, but prone to malfunctions.",,60,5.56x45mm,STANAG NATO,Loyalty 3,,,,,,,,,,,,,,,
+Equipment,,,,,,,,,,,,,,,,,,,,,,,
+Equipment Name,Ruble Cost,USD Cost,Description,Requirements,,,,,,,,,,,,,,,,,,,
+Large Toolkit,"?5,000",$500,"Large Toolkit, enabling the user to repair items or structures within his knowledge effectively.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Spray-on Alloy Adhesive,"?15,000","$1,500",Spray on Adhesive for repairing Ballistic Shields and Facemasks.,Loyalty 1,,,,,,,,,,,,,,,,,,,
+Flare (Blue),"?1,000",$100,"Identification Flare. Attach it your vest or bag for target recognition or to mark areas on the ground. 
+Blue is generally associated with Friendly Forces",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Flare (Red),"?1,000",$100,"Identification Flare. Attach it your vest or bag for target recognition or to mark areas on the ground. 
+Red signifies entry points, or areas of caution.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Flare (Green),"?1,000",$100,"Identification Flare. Attach it your vest or bag for target recognition or to mark areas on the ground. 
+Green is often utilized in low-visability enviroments.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Flare (Yellow),"?1,000",$100,"Identification Flare. Attach it your vest or bag for target recognition or to mark areas on the ground. 
+Yellow signifies 3rd Party Safety Nearby.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Laser Designator (Beam),"?5,000",$500,"Military Purpose Green Laser Pointer for use in IR-Lasering Key Targets for Close Air Support.
+Don't point it at people's eyes.",Loyalty 1,,,,,,,,,,,,,,,,,,,
+Multipurpose Breaching Tool,"?10,000","$1,000","Multi-Purpose Breaching Tool for Doors and Hatches. 
+Has another use, should you ever be attacked while holding it.",Loyalty 2,,,,,,,,,,,,,,,,,,,
+SOFLAM PLD,"?55,000","$5,500","Special Operations Device for Thermal Marking Targets. 
+It's primary use is to laser targets for third party intervention, but can double as a spotter scope.",Loyalty 2,,,,,,,,,,,,,,,,,,,
+Quad Rotor Recon Drone,"?180,000","$18,000","Recon Drone, developed by Shironome R&D.
+Highly Expensive, but works in tandem with CrossCom Glasses to provide accurate enemy location displays.",Loyalty 3,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
