@@ -3,54 +3,425 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Azami Console" />
-    <title>Azami Console</title>
+    <meta name="description" content="Browse local CSV files as tables" />
+    <title>Azami Console CSV Viewer</title>
     <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f172a;
+        --panel: #111827;
+        --panel-alt: #1f2937;
+        --border: #334155;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
-        font-family: Arial, sans-serif;
-        background: #121212;
-        color: #e0e0e0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, var(--bg), #020617);
+        color: var(--text);
       }
+
       header {
-        padding: 1.5rem;
-        background: #1f1f1f;
-        border-bottom: 1px solid #333;
+        padding: 1.5rem 2rem;
+        background: rgba(15, 23, 42, 0.95);
+        border-bottom: 1px solid var(--border);
       }
+
       main {
-        padding: 2rem;
+        padding: 1.5rem 2rem 2.5rem;
       }
+
       .container {
-        max-width: 960px;
+        max-width: 1200px;
         margin: 0 auto;
       }
-      a {
-        color: #4ea1ff;
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+      }
+
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .tabs button {
+        background: var(--panel-alt);
+        color: var(--text);
+        border: 1px solid var(--border);
+        padding: 0.55rem 0.8rem;
+      }
+
+      .tabs button.active {
+        background: var(--accent);
+        color: #082f49;
+        border-color: var(--accent);
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+
+      select,
+      button {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.7rem 0.9rem;
+        font-size: 0.95rem;
+        background: var(--panel-alt);
+        color: var(--text);
+      }
+
+      button {
+        cursor: pointer;
+        background: var(--accent);
+        color: #082f49;
+        font-weight: 700;
+      }
+
+      .status {
+        margin-bottom: 1rem;
+        color: var(--muted);
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--panel);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 600px;
+      }
+
+      th,
+      td {
+        padding: 0.8rem 0.9rem;
+        border-bottom: 1px solid var(--border);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #1e293b;
+        position: sticky;
+        top: 0;
+      }
+
+      tbody tr:hover {
+        background: rgba(56, 189, 248, 0.08);
+      }
+
+      .empty {
+        padding: 1.25rem;
+        color: var(--muted);
       }
     </style>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>Azami Console</h1>
-        <p>Welcome to the Azami Console template page.</p>
+        <h1>Azami Console CSV Viewer</h1>
+        <p>Browse the local CSV files in this workspace as tables.</p>
       </div>
     </header>
     <main>
       <div class="container">
-        <section>
-          <h2>Overview</h2>
-          <p>Use this template as a starting point for building a console-style web app.</p>
+        <section class="toolbar">
+          <label>
+            Select a CSV file
+            <select id="fileSelect"></select>
+          </label>
+          <button id="refreshButton" type="button">Reload table</button>
         </section>
-        <section>
-          <h2>Getting Started</h2>
-          <ul>
-            <li>Add your application markup below.</li>
-            <li>Update styles as needed.</li>
-            <li>Include scripts for interactivity.</li>
-          </ul>
-        </section>
+
+        <div id="status" class="status">Loading data…</div>
+        <div id="tabs" class="tabs" hidden></div>
+
+        <div class="table-wrap">
+          <table id="csvTable" hidden>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+          <div id="emptyState" class="empty">Choose a CSV to begin.</div>
+        </div>
       </div>
     </main>
+
+    <script>
+      const csvFiles = [
+        'wwwroot/data/Aftermarket Shop.csv',
+        'wwwroot/data/Armory.csv',
+        'wwwroot/data/Bullets.csv',
+        'wwwroot/data/Equipment and Mags.csv',
+        'wwwroot/data/Gunsmith.csv',
+        'wwwroot/data/Meds and other.csv',
+        'wwwroot/data/Protection and Accessories.csv'
+      ];
+
+      const fileSelect = document.getElementById('fileSelect');
+      const refreshButton = document.getElementById('refreshButton');
+      const statusEl = document.getElementById('status');
+      const tabsEl = document.getElementById('tabs');
+      const tableEl = document.getElementById('csvTable');
+      const emptyStateEl = document.getElementById('emptyState');
+      const theadEl = tableEl.querySelector('thead');
+      const tbodyEl = tableEl.querySelector('tbody');
+      let currentSubtableIndex = 0;
+      let currentSubtables = [];
+
+      function parseCSV(text) {
+        const rows = [];
+        let row = [];
+        let value = '';
+        let inQuotes = false;
+
+        for (let i = 0; i < text.length; i += 1) {
+          const char = text[i];
+          const next = text[i + 1];
+
+          if (char === '"') {
+            if (inQuotes && next === '"') {
+              value += '"';
+              i += 1;
+            } else {
+              inQuotes = !inQuotes;
+            }
+          } else if (char === ',' && !inQuotes) {
+            row.push(value);
+            value = '';
+          } else if ((char === '\n' || char === '\r') && !inQuotes) {
+            if (char === '\r' && next === '\n') {
+              i += 1;
+            }
+            row.push(value);
+            if (row.some((cell) => cell !== '')) {
+              rows.push(row);
+            }
+            row = [];
+            value = '';
+          } else {
+            value += char;
+          }
+        }
+
+        if (value.length > 0 || row.length > 0) {
+          row.push(value);
+          if (row.some((cell) => cell !== '')) {
+            rows.push(row);
+          }
+        }
+
+        return rows;
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/\"/g, '&quot;');
+      }
+
+      function isBlankRow(row) {
+        return row.every((cell) => cell.trim() === '');
+      }
+
+      function isTitleRow(row) {
+        const nonEmpty = row.filter((cell) => cell.trim() !== '');
+        return nonEmpty.length === 1;
+      }
+
+      function isHeaderRow(row) {
+        const nonEmpty = row.filter((cell) => cell.trim() !== '');
+        return nonEmpty.length >= 2;
+      }
+
+      function findNextMeaningfulIndex(rows, startIndex) {
+        for (let index = startIndex; index < rows.length; index += 1) {
+          const normalized = rows[index].map((cell) => cell.trim());
+          if (!isBlankRow(normalized)) {
+            return index;
+          }
+        }
+        return -1;
+      }
+
+      function buildSubtables(rows) {
+        const meaningfulRows = rows.filter((row) => !isBlankRow(row.map((cell) => cell.trim())));
+        const subtables = [];
+        let current = null;
+        let index = 0;
+
+        while (index < meaningfulRows.length) {
+          const row = meaningfulRows[index].map((cell) => cell.trim());
+
+          if (isTitleRow(row)) {
+            const nextIndex = findNextMeaningfulIndex(meaningfulRows, index + 1);
+            if (nextIndex !== -1 && isHeaderRow(meaningfulRows[nextIndex].map((cell) => cell.trim()))) {
+              if (current) {
+                subtables.push(current);
+              }
+              current = {
+                title: row[0],
+                header: meaningfulRows[nextIndex].map((cell) => cell.trim()),
+                rows: []
+              };
+              index = nextIndex + 1;
+              continue;
+            }
+          }
+
+          if (!current) {
+            if (isHeaderRow(row)) {
+              current = { title: 'Table', header: row, rows: [] };
+            }
+            index += 1;
+            continue;
+          }
+
+          if (!current.header) {
+            current.header = row;
+            index += 1;
+            continue;
+          }
+
+          if (isTitleRow(row)) {
+            subtables.push(current);
+            current = null;
+            index += 1;
+            continue;
+          }
+
+          current.rows.push(row);
+          index += 1;
+        }
+
+        if (current) {
+          subtables.push(current);
+        }
+
+        return subtables.filter((subtable) => subtable.header && subtable.header.some((cell) => cell !== ''));
+      }
+
+      function renderTable(subtable) {
+        if (!subtable || !subtable.header) {
+          tableEl.hidden = true;
+          emptyStateEl.hidden = false;
+          emptyStateEl.textContent = 'No data available for this file.';
+          return;
+        }
+
+        const header = subtable.header;
+        const dataRows = subtable.rows || [];
+        theadEl.innerHTML = '<tr>' + header.map((cell) => `<th>${escapeHtml(cell)}</th>`).join('') + '</tr>';
+
+        tbodyEl.innerHTML = dataRows
+          .map((row) => {
+            const values = row.slice(0, header.length);
+            while (values.length < header.length) {
+              values.push('');
+            }
+            return '<tr>' + values.map((cell) => `<td>${escapeHtml(cell)}</td>`).join('') + '</tr>';
+          })
+          .join('');
+
+        tableEl.hidden = false;
+        emptyStateEl.hidden = true;
+      }
+
+      function renderTabs(subtables) {
+        if (subtables.length <= 1) {
+          tabsEl.hidden = true;
+          tabsEl.innerHTML = '';
+          return;
+        }
+
+        tabsEl.innerHTML = subtables
+          .map((subtable, index) => `<button type="button" class="${index === 0 ? 'active' : ''}" data-index="${index}">${escapeHtml(subtable.title)}</button>`)
+          .join('');
+        tabsEl.hidden = false;
+
+        tabsEl.querySelectorAll('button').forEach((button) => {
+          button.addEventListener('click', () => {
+            currentSubtableIndex = Number(button.getAttribute('data-index'));
+            renderActiveSubtable();
+          });
+        });
+      }
+
+      function renderActiveSubtable() {
+        const subtable = currentSubtables[currentSubtableIndex];
+        if (!subtable) {
+          return;
+        }
+
+        renderTable(subtable);
+        tabsEl.querySelectorAll('button').forEach((button, index) => {
+          button.classList.toggle('active', index === currentSubtableIndex);
+        });
+      }
+
+      async function loadCsv(filePath) {
+        statusEl.textContent = `Loading ${filePath}…`;
+
+        try {
+          const response = await fetch(filePath);
+          if (!response.ok) {
+            throw new Error(`Request failed with status ${response.status}`);
+          }
+
+          const text = await response.text();
+          const rows = parseCSV(text);
+          currentSubtables = buildSubtables(rows);
+          currentSubtableIndex = 0;
+          renderTabs(currentSubtables);
+          renderActiveSubtable();
+          const count = currentSubtables.length > 1 ? currentSubtables.length : Math.max(rows.length - 1, 0);
+          statusEl.textContent = `${filePath} loaded with ${count} table row(s).`;
+        } catch (error) {
+          console.error(error);
+          statusEl.textContent = `Unable to load ${filePath}.`;
+          currentSubtables = [];
+          renderTable(null);
+        }
+      }
+
+      function populateFileSelector() {
+        fileSelect.innerHTML = csvFiles
+          .map((filePath) => `<option value="${filePath}">${filePath.split('/').pop()}</option>`)
+          .join('');
+      }
+
+      populateFileSelector();
+      fileSelect.addEventListener('change', () => loadCsv(fileSelect.value));
+      refreshButton.addEventListener('click', () => loadCsv(fileSelect.value));
+
+      loadCsv(fileSelect.value);
+    </script>
   </body>
 </html>
