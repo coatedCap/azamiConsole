@@ -1,225 +1,169 @@
-Assault Rifles,,,,,,,,,
-Firearm Name,Ruble Cost,USD Cost,Description,Loyalty Req,Bullet Type,,,,
-HK-416A5,"?60,000","$6,000","HK416 Model designed to build on top of an already successful platform.
-Customizable to various degrees.",Loyalty 1,5.56x45 mm,,,,
-AK-12 ,"?62,000","$6,200",Russian-made Modular Rifle made to replace the AK-74M. 5.45 Calibur Rounds with Solid Stats all around.,Loyalty 1,5.45x39 mm,,,,
-M4A1,"?25,000","$2,500","Company Produced Arma-Lite Rifles, in use by Island Security. 
-Does not excel anywhere, but extremely customizable.",Loyalty 1,5.56x45 mm,,,,
-Steyr AUG A3,"?51,000","$5,100",Bullpup Design. It's inherent design gives the user better stability.,Loyalty 1,5.56x45 mm,,,,
-GR G36,"?44,000","$4,400","Germany's Old Service Rifle. Most popular with the Bundeswehr. 
-While not as customizable as an AR, It's stats are excellent.",Loyalty 1,5.56x45 mm,,,,
-AK103,?47000,"$4,700","AK Systems rifle utilizing a build similar to that of the 74. 
-Uses 7.62 rounds to put holes in people.",Loyalty 1,7.62x39 mm,,,,
-AK-74M,"?26,000","$2,600",Russian Military Surplus Rifle. Relatively Cheap to obtain and easy to use.,Loyalty 1,5.45x39 mm,,,,
-HK433,"?72,000","$7,200","New Expiramental Assault Rifle looking to be utilized by British Special Forces. Modular, and uses 5.56 rounds",Loyalty 2,5.56x45 mm,,,,
-Daniel Defense MK-18,"?58,000","$5,800","AR Platform designed with a Shorter Barrel. 
-Suitable for CQB Enviroments with a Lighter Weight Focus",Loyalty 2,5.56x45 mm,,,,
-SIG MCX,"?70,000","$7,000","New Prototype Rifle going through field tests. 
-Uses .300 BLK rounds, with an internally surpressed barrel.",Loyalty 3,.300 BLK,,,,
-MK.17,"?35,000","$3,500","A Sturdy and hard-hitting Assault Rifle. 
-While on the heavier side of most ARs, it makes up for in it's sheer material penetration prowess.",Loyalty 3,7.62x51 mm,,,,
-M4 SOPMOD (Custom),"?55,000","$5,500","Highly Modifed M4A1 Carbine, used primarily by US Special Forces under SOP Modifiactions. 
-Nearly Identical to the AR-15, but sports calibur converstions and CQC Capability",Loyalty 3,5.56x45 mm,,,,
-IWI Tar-21,"?40,000","$4,000","Lesser known Bullpup around the world compared to the AUG. 
-Unlike the AUG however, sports much more customizability without the use of a conversion.",Loyalty 3,5.56x45 mm,,,,
-Abakan AN-94,"?90,000","$9,000","Russia's Unique take on the AK Platform alongside the AK-12 and 15. 
+Assault Rifles,,,,,
+Firearm Name,Ruble Cost,USD Cost,Loyalty Req,Bullet Type,Description
+HK-416A5,"?60,000","$6,000 ",Loyalty 1,5.56x45 mm,"HK416 Model designed to build on top of an already successful platform.
+Customizable to various degrees."
+AK-12 ,"?62,000","$6,200 ",Loyalty 1,5.45x39 mm,Russian-made Modular Rifle made to replace the AK-74M. 5.45 Calibur Rounds with Solid Stats all around.
+M4A1,"?25,000","$2,500 ",Loyalty 1,5.56x45 mm,"Company Produced Arma-Lite Rifles, in use by Island Security. 
+Does not excel anywhere, but extremely customizable."
+Steyr AUG A3,"?51,000","$5,100 ",Loyalty 1,5.56x45 mm,Bullpup Design. It's inherent design gives the user better stability.
+GR G36,"?44,000","$4,400 ",Loyalty 1,5.56x45 mm,"Germany's Old Service Rifle. Most popular with the Bundeswehr. 
+While not as customizable as an AR, It's stats are excellent."
+AK103,?47000,"$4,700 ",Loyalty 1,7.62x39 mm,"AK Systems rifle utilizing a build similar to that of the 74. 
+Uses 7.62 rounds to put holes in people."
+AK-74M,"?26,000","$2,600 ",Loyalty 1,5.45x39 mm,Russian Military Surplus Rifle. Relatively Cheap to obtain and easy to use.
+HK433,"?72,000","$7,200 ",Loyalty 2,5.56x45 mm,"New Expiramental Assault Rifle looking to be utilized by British Special Forces. Modular, and uses 5.56 rounds"
+Daniel Defense MK-18,"?58,000","$5,800 ",Loyalty 2,5.56x45 mm,"AR Platform designed with a Shorter Barrel. 
+Suitable for CQB Enviroments with a Lighter Weight Focus"
+SIG MCX,"?70,000","$7,000 ",Loyalty 3,.300 BLK,"New Prototype Rifle going through field tests. 
+Uses .300 BLK rounds, with an internally surpressed barrel."
+MK.17,"?35,000","$3,500 ",Loyalty 3,7.62x51 mm,"A Sturdy and hard-hitting Assault Rifle. 
+While on the heavier side of most ARs, it makes up for in it's sheer material penetration prowess."
+M4 SOPMOD (Custom),"?55,000","$5,500 ",Loyalty 3,5.56x45 mm,"Highly Modifed M4A1 Carbine, used primarily by US Special Forces under SOP Modifiactions. 
+Nearly Identical to the AR-15, but sports calibur converstions and CQC Capability"
+IWI Tar-21,"?40,000","$4,000 ",Loyalty 3,5.56x45 mm,"Lesser known Bullpup around the world compared to the AUG. 
+Unlike the AUG however, sports much more customizability without the use of a conversion."
+Abakan AN-94,"?90,000","$9,000 ",Loyalty 3,5.45x39 mm,"Russia's Unique take on the AK Platform alongside the AK-12 and 15. 
 It's first two bursts fire extremely fast and consistantly.
-Has a rather unique reload well. Less Customization.",Loyalty 3,5.45x39 mm,,,,
-H&K G41,"?30,000","$3,000","H&K designed AR, intended to replace the G3. 
-Able to support a number of conversions, and sports familiar Iron-Sights.",Loyalty 3,5.56x45 mm,,,,
-Sub Machine Guns,,,,,,,,,
-Firearm Name,Ruble Cost,USD Cost,Description,Loyalty Req,Bullet Type,,,,
-H&K MP5SD,"?25,000","$2,500","Standard Operations SMG for Covert Operations. 
-It's Built-in Supressor decreases range.",Loyalty 1,9x19 mm,,,,
-MP9,"?50,000","$5,000","A light, highly modular and extremely effective SMG indoors and in CQC Engagements.",Loyalty 1,9x19 mm,,,,
-H&K UMP - 45,"?40,000","$4,000","Solid SMG chambered in .45 ACP. 
-It's caliber makes it preform nearly on par with that of an AR.",Loyalty 1,.45 ACP,,,,
-Vityaz - SN,"?23,000","$2,300","Russian Developed SMG, based on the 74u. 
-Rather Solid in terms of stats.",Loyalty 1,9x19 mm,,,,
-H&K UMP9,"?32,000","$3,200","A rarer, 9mm version of the UMP design. 
-While it does not have the firepower of it's sister, 45, it can be fired for a longer period of time thanks to it's 30rnd cap.",Loyalty 1,9x19 mm,,,,
-MP7A1,"?55,000","$5,500","A compact, modular Sub-machine gun. 
-It's design leaves it rather popular with Special Operations, allowing reloads to be a bit faster. Has only 20 rnds.",Loyalty 1,4.6x30 mm,,,,
-Kriss Vector .45 ACP,"?90,000","$9,000","With a fire-rate higher than any SMG shown before, keeping ammo for this is going to be quite difficult. 
-Good Damage output, but suffers from instability.",Loyalty 2,.45 ACP,,,,
-Kriss Vector 9x19mm,"?80,000","$8,000","Like it's sibling, the Vector fires faster than any SMG before it, only this time, it uses a smaller, cheaper caliber.",Loyalty 2,9x19 mm,,,,
-SIG MPX,"?44,000","$4,400","A heavy, yet stable alternative to the popular MP5. 
-The MPX supports modular attachment from the get-go, as a trade off for it's weight.",Loyalty 2,9x19 mm,,,,
-LWRC .45 ACP,"?60,000","$6,000","Weapon-system with the likeliness of a UMP, the LWRC.45 is a lighter, alternative to the UMP45, albiet more expensive.",Loyalty 2,9x19 mm,,,,
-RO635,"?38,000","$3,800","A highly customizable AR platform with the ammunition conversion to that of a SMG. 
-Excellent Modular Support, though not quite as loud caliber-wise.",Loyalty 3,9x19 mm,,,,
-FN P90,"?70,000","$7,000","Beligum's 50 Round Terror. 
-With a caliber of 5.7x28, in a magazine of 50+1, the P90 makes up for it's lack of customizations with a hardhitting package.",Loyalty 3,5.7x28 mm,,,,
-KAC PDW,"?58,000","$5,800","Experimental PDW sporting a 6mm caliber designation. 
-Standard across the board, it's simplicity makes it an easy weapon to pick up and use.",Loyalty 3,9x19 mm,,,,
-Micro Uzi,"?23,000","$2,300","A smaller varient of the Uzi. 
-Good for concealment and handles similar to the G18c, if not with it's slight differences.",Loyalty 3,9x19 mm,,,,
-AR-57,"?42,000","$4,200","Highly expiremental design, fusing the P90 cartridge to that of the AR-15. 
-Less Customizable as a result. Has the properties of an SMG, but the handling of an AR.",Loyalty 3,5.7x28 mm,,,,
-Sniper Rifles and Designated Marksmen Rifles,,,,,,,,,
-Firearm Name,Ruble Cost,USD Cost,Description,Loyalty Req,Bullet Type,,,,
-Dragonov SVD,"?35,000","$3,500","Semi-Automatic Sniper Rifle, in service to Russia's Armed Forces. 
-Lacks the high range capabilities a normal sniper would have.",Loyalty 1,7.62x54 mmR,,,,
-JNG-90,N/A,"$5,950",Taiwanese made Bolt Action Rifle. Holds 10 Shots. A generally good modular rifle.,Loyalty 1,7.62×51 mm,,,,
-M24 SWS,N/A,"$5,750","Highly effective Bolt Action Rifle, capable of hitting long range distances so long as the shooter zeroes his target.",Loyalty 1,7.62x51 mm,,,,
-M40A5,N/A,"$5,550","Standard Issue US Marksmen Rifle, known for it's long time in service. 
-A reliable starter weapon for the aspiring sharpshooter.",Loyalty 1,7.62x51 mm,,,,
-Remington MSR,N/A,"$6,840","Bolt Action Modular Sniper Rifle. 
-Customizable design, with the ability to load AP rounds. Strong Sniper in General.",Loyalty 1,.338 L-Magnum,,,,
-SR-25,"?60,000","$6,000","Designated Marksman Rifle developed by Knight's Armament Company. 
-Modular and highly effective in any enviroment, but loses out to traditional bolt actions in penetration and range.",Loyalty 1,7.62x51 mm,,,,
-AW L96A1,N/A,"$6,750","Highly Accurate Sniper Rifle made by Accuracy International. 
-Extremely Popular and Highly Damaging, with Six Shots, Banned in several countries.",Loyalty 2,.338 L-Magnum,,,,
-DSR-1,N/A,"$9,500","Compact Bolt-Action Sniper Rifle being developed by GmbH. 
-Adopted by the German GSG9, and has shown remarkable marks for it's accuracy and ease of design.",Loyalty 2,7.62x51 mm,,,,
-M200 Intervention,N/A,"$10,000","Bolt Action Sniper Rifle developed by CheyTac inc. 
-Uses easily accessible ammunition, rather than it's anti material ammunition counterparts.",Loyalty 2,.338 L-Magnum,,,,
-Mosin Nagant MSR,"?80,000","$8,000","Recovered Project from the Kremlin. 
-Only a few were ever made. New Magazine and Design builds upon the Classic.",Loyalty 2,7.62x54 mmR,,,,
-WA2000,N/A,"$7,000","Semi-Automatic Bullpup Sniper, manufactured with recovered blueprints. It's design weighs it down slightly.",Loyalty 3,7.62x51 mm,,,,
-M2010 ESR,N/A,"$8,100","New Modular Sniper Rifle in development by the US Army to replace it's current Service Sniper. 
-Takes notes off of the Remington MSR, but is overall designed for all-terrain fights.",Loyalty 3,.338 L-Magnum,,,,
-Springfield M1903,"?77,000","$7,700","An old proven design, modifed to its modern day counterparts. 
-Now able to attach addons to it's gear. Pistol Grip and Stock puts it on par with it's competitors.",Loyalty 3,.30-06 Spring,,,,
-AX-50,N/A,"$15,000","Highly Accurate .50 BMG Loaded Rifle from Britain. 
-Highly Dangerous in capable hands. Requires Clearance.",Prof Locked,.50 BMG,,,,
-IWS-2000,N/A,"$20,000","Single-Shot, Bolt Action Austrian Anti Material Rifle. 
-Not for the faint of heart. You'll need clearance before you think about fielding it.",Prof Locked,15.2x169 mm,,,,
-Light Machine Guns and Squad Support Weapons,,,,,,,,,
-Firearm Name,Ruble Cost,USD Cost,Description,Loyalty Req,Bullet Type,,,,
-RPK-16,"?63,000","$6,300","Light Machine Gun varient of the AK Platform. 
-The weight of an Assault Rifle with the power of an LMG.",Loyalty 1,5.45x39 mm,,,,
-MG36,"?50,000","$5,000","LMG Variant of the G36. Sports a drum-mag and a rather consistant weapon design. 
-Fairly customizable, and light to boot.",Loyalty 1,5.56x45 mm,,,,
-M60E6,"?32,500","$3,250","General Purpose Machine Gun chambered in 7.62. 
+Has a rather unique reload well. Less Customization."
+H&K G41,"?30,000","$3,000 ",Loyalty 3,5.56x45 mm,"H&K designed AR, intended to replace the G3. 
+Able to support a number of conversions, and sports familiar Iron-Sights."
+Sub Machine Guns,,,,,
+Firearm Name,Ruble Cost,USD Cost,Loyalty Req,Bullet Type,Description
+H&K MP5SD,"?25,000","$2,500 ",Loyalty 1,9x19 mm,"Standard Operations SMG for Covert Operations. 
+It's Built-in Supressor decreases range."
+MP9,"?50,000","$5,000 ",Loyalty 1,9x19 mm,"A light, highly modular and extremely effective SMG indoors and in CQC Engagements."
+H&K UMP - 45,"?40,000","$4,000 ",Loyalty 1,.45 ACP,"Solid SMG chambered in .45 ACP. 
+It's caliber makes it preform nearly on par with that of an AR."
+Vityaz - SN,"?23,000","$2,300 ",Loyalty 1,9x19 mm,"Russian Developed SMG, based on the 74u. 
+Rather Solid in terms of stats."
+H&K UMP9,"?32,000","$3,200 ",Loyalty 1,9x19 mm,"A rarer, 9mm version of the UMP design. 
+While it does not have the firepower of it's sister, 45, it can be fired for a longer period of time thanks to it's 30rnd cap."
+MP7A1,"?55,000","$5,500 ",Loyalty 1,4.6x30 mm,"A compact, modular Sub-machine gun. 
+It's design leaves it rather popular with Special Operations, allowing reloads to be a bit faster. Has only 20 rnds."
+Kriss Vector .45 ACP,"?90,000","$9,000 ",Loyalty 2,.45 ACP,"With a fire-rate higher than any SMG shown before, keeping ammo for this is going to be quite difficult. 
+Good Damage output, but suffers from instability."
+Kriss Vector 9x19mm,"?80,000","$8,000 ",Loyalty 2,9x19 mm,"Like it's sibling, the Vector fires faster than any SMG before it, only this time, it uses a smaller, cheaper caliber."
+SIG MPX,"?44,000","$4,400 ",Loyalty 2,9x19 mm,"A heavy, yet stable alternative to the popular MP5. 
+The MPX supports modular attachment from the get-go, as a trade off for it's weight."
+LWRC .45 ACP,"?60,000","$6,000 ",Loyalty 2,9x19 mm,"Weapon-system with the likeliness of a UMP, the LWRC.45 is a lighter, alternative to the UMP45, albiet more expensive."
+RO635,"?38,000","$3,800 ",Loyalty 3,9x19 mm,"A highly customizable AR platform with the ammunition conversion to that of a SMG. 
+Excellent Modular Support, though not quite as loud caliber-wise."
+FN P90,"?70,000","$7,000 ",Loyalty 3,5.7x28 mm,"Beligum's 50 Round Terror. 
+With a caliber of 5.7x28, in a magazine of 50+1, the P90 makes up for it's lack of customizations with a hardhitting package."
+KAC PDW,"?58,000","$5,800 ",Loyalty 3,9x19 mm,"Experimental PDW sporting a 6mm caliber designation. 
+Standard across the board, it's simplicity makes it an easy weapon to pick up and use."
+Micro Uzi,"?23,000","$2,300 ",Loyalty 3,9x19 mm,"A smaller varient of the Uzi. 
+Good for concealment and handles similar to the G18c, if not with it's slight differences."
+AR-57,"?42,000","$4,200 ",Loyalty 3,5.7x28 mm,"Highly expiremental design, fusing the P90 cartridge to that of the AR-15. 
+Less Customizable as a result. Has the properties of an SMG, but the handling of an AR."
+Sniper Rifles and Designated Marksmen Rifles,,,,,
+Firearm Name,Ruble Cost,USD Cost,Loyalty Req,Bullet Type,Description
+Dragonov SVD,"?35,000","$3,500 ",Loyalty 1,7.62x54 mmR,"Semi-Automatic Sniper Rifle, in service to Russia's Armed Forces. 
+Lacks the high range capabilities a normal sniper would have."
+JNG-90,N/A,"$5,950 ",Loyalty 1,7.62×51 mm,Taiwanese made Bolt Action Rifle. Holds 10 Shots. A generally good modular rifle.
+M24 SWS,N/A,"$5,750 ",Loyalty 1,7.62x51 mm,"Highly effective Bolt Action Rifle, capable of hitting long range distances so long as the shooter zeroes his target."
+M40A5,N/A,"$5,550 ",Loyalty 1,7.62x51 mm,"Standard Issue US Marksmen Rifle, known for it's long time in service. 
+A reliable starter weapon for the aspiring sharpshooter."
+Remington MSR,N/A,"$6,840 ",Loyalty 1,.338 L-Magnum,"Bolt Action Modular Sniper Rifle. 
+Customizable design, with the ability to load AP rounds. Strong Sniper in General."
+SR-25,"?60,000","$6,000 ",Loyalty 1,7.62x51 mm,"Designated Marksman Rifle developed by Knight's Armament Company. 
+Modular and highly effective in any enviroment, but loses out to traditional bolt actions in penetration and range."
+AW L96A1,N/A,"$6,750 ",Loyalty 2,.338 L-Magnum,"Highly Accurate Sniper Rifle made by Accuracy International. 
+Extremely Popular and Highly Damaging, with Six Shots, Banned in several countries."
+DSR-1,N/A,"$9,500 ",Loyalty 2,7.62x51 mm,"Compact Bolt-Action Sniper Rifle being developed by GmbH. 
+Adopted by the German GSG9, and has shown remarkable marks for it's accuracy and ease of design."
+M200 Intervention,N/A,"$10,000 ",Loyalty 2,.338 L-Magnum,"Bolt Action Sniper Rifle developed by CheyTac inc. 
+Uses easily accessible ammunition, rather than it's anti material ammunition counterparts."
+Mosin Nagant MSR,"?80,000","$8,000 ",Loyalty 2,7.62x54 mmR,"Recovered Project from the Kremlin. 
+Only a few were ever made. New Magazine and Design builds upon the Classic."
+WA2000,N/A,"$7,000 ",Loyalty 3,7.62x51 mm,"Semi-Automatic Bullpup Sniper, manufactured with recovered blueprints. It's design weighs it down slightly."
+M2010 ESR,N/A,"$8,100 ",Loyalty 3,.338 L-Magnum,"New Modular Sniper Rifle in development by the US Army to replace it's current Service Sniper. 
+Takes notes off of the Remington MSR, but is overall designed for all-terrain fights."
+Springfield M1903,"?77,000","$7,700 ",Loyalty 3,.30-06 Spring,"An old proven design, modifed to its modern day counterparts. 
+Now able to attach addons to it's gear. Pistol Grip and Stock puts it on par with it's competitors."
+AX-50,N/A,"$15,000 ",Prof Locked,.50 BMG,"Highly Accurate .50 BMG Loaded Rifle from Britain. 
+Highly Dangerous in capable hands. Requires Clearance."
+IWS-2000,N/A,"$20,000 ",Prof Locked,15.2x169 mm,"Single-Shot, Bolt Action Austrian Anti Material Rifle. 
+Not for the faint of heart. You'll need clearance before you think about fielding it."
+Light Machine Guns and Squad Support Weapons,,,,,
+Firearm Name,Ruble Cost,USD Cost,Loyalty Req,Bullet Type,Description
+RPK-16,"?63,000","$6,300 ",Loyalty 1,5.45x39 mm,"Light Machine Gun varient of the AK Platform. 
+The weight of an Assault Rifle with the power of an LMG."
+MG36,"?50,000","$5,000 ",Loyalty 1,5.56x45 mm,"LMG Variant of the G36. Sports a drum-mag and a rather consistant weapon design. 
+Fairly customizable, and light to boot."
+M60E6,"?32,500","$3,250 ",Loyalty 1,7.62x51 mm,"General Purpose Machine Gun chambered in 7.62. 
 Still in service in a number of countries. 
-Does not support modular support for most attachments.",Loyalty 1,7.62x51 mm,,,,
-KORD 6P57,"?60,000","$6,000","An extremely heavy machine gun. 
-While carrying it in general is rather difficult, the power behind it makes it a worth while support weapon. 150 rounds.",Loyalty 1,12.7x108 mm,,,,
-M249 SAW,"?180,000","$18,000","Lightweight LMG. 
-Compared to the others, the M249 offers a lighter carry weight without sacrifcing fire power. 200 rounds.",Loyalty 2,5.56x45 mm,,,,
-PKM,"?200,000","$20,000","Russian developed HMG. 
-It's unique 150 Box Mag allows the user to sustain combat for longer, at the cost of weight.",Loyalty 2,7.62x54 mmR,,,,
-M240,"?210,000","$21,000","American HMG in service to the US Army. 
-Relatively light for it's class, it's stability is questionable at times.",Loyalty 3,7.62x51 mm,,,,
-MG3,"?150,000","$15,000","Germany's refurbished Buzzsaw. 
-Based on an old war design, the MG3 demonstrates solid stats as an LMG in it's class.",Loyalty 3,7.62x51 mm,,,,
-MK.48,"?120,000","$12,000",American Squad Support Weapon in service for the Marines. Handles relatively well and hits like a truck.,Loyalty 3,7.62x51 mm,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-Shotguns,,,,,,,,,
-Firearm Name,Ruble Cost,USD Cost,Description,Loyalty Req,Bullet Type,,,,
-Kel-Tec KSG,"?30,000","$3,000","Bullpup Shotgun. 
-It's shells do not cover as much ground as the normal 12 gauge, but devastates single targets.",Loyalty 2,12 Gauge,,,,
-Franchi Spas-12,"?45,000","$4,500","Pump Shotgun. 
-Has a Semi Auto Mode, that allows it to fire off twice as much ammo as shooting it normally would.",Loyalty 1,12 Gauge,,,,
-Saiga - 12,"?20,000","$2,000","Fully Automatic 12 Gauge. 
-It's stability and accuracy is horrid, but the suppression and crowd control are excellent.",Loyalty 1,12 Gauge,,,,
-Remington M870,"?22,000","$2,200","Highly Reliable Pump Action Shotgun. 
+Does not support modular support for most attachments."
+KORD 6P57,"?60,000","$6,000 ",Loyalty 1,12.7x108 mm,"An extremely heavy machine gun. 
+While carrying it in general is rather difficult, the power behind it makes it a worth while support weapon. 150 rounds."
+M249 SAW,"?180,000","$18,000 ",Loyalty 2,5.56x45 mm,"Lightweight LMG. 
+Compared to the others, the M249 offers a lighter carry weight without sacrifcing fire power. 200 rounds."
+PKM,"?200,000","$20,000 ",Loyalty 2,7.62x54 mmR,"Russian developed HMG. 
+It's unique 150 Box Mag allows the user to sustain combat for longer, at the cost of weight."
+M240,"?210,000","$21,000 ",Loyalty 3,7.62x51 mm,"American HMG in service to the US Army. 
+Relatively light for it's class, it's stability is questionable at times."
+MG3,"?150,000","$15,000 ",Loyalty 3,7.62x51 mm,"Germany's refurbished Buzzsaw. 
+Based on an old war design, the MG3 demonstrates solid stats as an LMG in it's class."
+MK.48,"?120,000","$12,000 ",Loyalty 3,7.62x51 mm,American Squad Support Weapon in service for the Marines. Handles relatively well and hits like a truck.
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Shotguns,,,,,
+Firearm Name,Ruble Cost,USD Cost,Loyalty Req,Bullet Type,Description
+Kel-Tec KSG,"?30,000","$3,000 ",Loyalty 2,12 Gauge,"Bullpup Shotgun. 
+It's shells do not cover as much ground as the normal 12 gauge, but devastates single targets."
+Franchi Spas-12,"?45,000","$4,500 ",Loyalty 1,12 Gauge,"Pump Shotgun. 
+Has a Semi Auto Mode, that allows it to fire off twice as much ammo as shooting it normally would."
+Saiga - 12,"?20,000","$2,000 ",Loyalty 1,12 Gauge,"Fully Automatic 12 Gauge. 
+It's stability and accuracy is horrid, but the suppression and crowd control are excellent."
+Remington M870,"?22,000","$2,200 ",Loyalty 1,12 Gauge,"Highly Reliable Pump Action Shotgun. 
 Can be customized for Short to Mid Range Engagements. 
-A favorite amongst PMC Combat Units.",Loyalty 1,12 Gauge,,,,
-Fabarm SAT-8,"?23,000","$2,300","All-rounding shotgun sporting fantastic stability and shell displacement. 
-Excellent for Short Range Engagements.",Loyalty 3,12 Gauge,,,,
-Double Barrel Shotgun,"?18,000","$1,800","Don't fix something if it's not broken. 
+A favorite amongst PMC Combat Units."
+Fabarm SAT-8,"?23,000","$2,300 ",Loyalty 3,12 Gauge,"All-rounding shotgun sporting fantastic stability and shell displacement. 
+Excellent for Short Range Engagements."
+Double Barrel Shotgun,"?18,000","$1,800 ",Loyalty 1,12 Gauge,"Don't fix something if it's not broken. 
 Break-action Shotgun with a Two Shell Capacity. 
-Has litterally no attachements, but why would you even?",Loyalty 1,12 Gauge,,,,
-Beneli M1014,"?32,000","$3,200","A tube fed, semi-automatic shotgun. 
-With 8 shots in the tube combined with it's ability to use slugs, the M1014 can be modified to suit any situation.",Loyalty 2,12 Gauge,,,,
-Franchi Spas-15,"?50,000","$5,000","Mag-Fed 12 Gauge design, effective for sweeping buildings. 
-It's effectiveness outside of CQC Enviroments leaves alot to be desired.",Loyalty 3,12 Gauge,,,,
-Mossberg 590,"?19,000","$1,900","Widely used 12 Gauge Shotgun by Law Enforcement and PMCs alike. 
-Simple yet extremely effective.",Loyalty 1,12 Gauge,,,,
-DP-12,"?48,000","$4,800","Unique Shotgun design sporting two barrels. 
-Allows for two consecutive shots before the pump requires to be pulled back.",Loyalty 3,12 Gauge,,,,
-Ithaca Model 37,"?18,500","$1,850","WIdely available civilian shotgun for home defense and hunting.
-Starts with a 4 Shell Capacity that can be upgraded to 6.",Loyalty 1,12 Gauge,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-Handguns,,,,,,,,,
-Glock 21 Gen 4,"?15,000","$1,500","Widely mass produced handgun. 
-An upgraded varient from the 17, this time utilizing .45 ACP rounds.",Loyalty 1,.45 ACP,,,,
-H&K USP Tactical,"?5,000",$500,"Shironome's Service Pistol. 
-One of the better sidearm choices available, although it lacks electronic sight support.",Loyalty 1,.45 ACP,,,,
-GSh-18,"?18,000","$1,800","Russian Handgun chambered in 9 x 19mm. 
-Large Magazine allows the user to fire off two shots rather than one.",Loyalty 1,9x19 mm,,,,
-Beretta M93R,"?11,000","$1,100","A Modified M9 designed to fire in bursts. 
-Without it's stock, the stability and accuracy of this weapon is rather bad.",Loyalty 2,9x19 mm,,,,
-Sig P226,"?8,000",$800,"Highly modular handgun on par with the USP. 
-Features higher customizability as well as an Optic Mount.",Loyalty 2,9x19 mm,,,,
-SIG P320,"?11,000","$1,100","New modular handgun being tested for official service use. 
-Extremely Ergodynamic, and feels good to shoot.",Loyalty 2,9x19 mm,,,,
-H&K MK.23,"?25,000","$2,500","Next Generation Special Operations handgun for usage in over several climate scenarios. 
-It's rather bulky and heavy, but it comes with a Laser Module.",Loyalty 3,.45 ACP,,,,
-Beretta PX4 Storm,"?8,500",$850,"Beretta made Special Operations Handgun to work alongside the Beretta M9. 
-A rather balanced HG at that. Can't go wrong with it. Barely fits any customization.",Loyalty 1,9x19 mm,,,,
-M1911A1 Custom,"?14,000","$1,400","Old M1911A1 design spec dating back to 1964, auctioned off at a local munitions house. 
-Surprisingly light-weight, and sports superior targeting capabilities.",Loyalty 1,.45 ACP,,,,
-G18C,"?18,000","$1,800","Machine Pistol, capable of full auto fire. 
-The weapon itself can be modified to become a PDW of sorts, though it'll take some practice before hand.",Loyalty 2,9x19 mm,,,,
-FN Five-Seven,"?30,000","$3,000","Belgium's 20 Round Modular Handgun. 
+Has litterally no attachements, but why would you even?"
+Beneli M1014,"?32,000","$3,200 ",Loyalty 2,12 Gauge,"A tube fed, semi-automatic shotgun. 
+With 8 shots in the tube combined with it's ability to use slugs, the M1014 can be modified to suit any situation."
+Franchi Spas-15,"?50,000","$5,000 ",Loyalty 3,12 Gauge,"Mag-Fed 12 Gauge design, effective for sweeping buildings. 
+It's effectiveness outside of CQC Enviroments leaves alot to be desired."
+Mossberg 590,"?19,000","$1,900 ",Loyalty 1,12 Gauge,"Widely used 12 Gauge Shotgun by Law Enforcement and PMCs alike. 
+Simple yet extremely effective."
+DP-12,"?48,000","$4,800 ",Loyalty 3,12 Gauge,"Unique Shotgun design sporting two barrels. 
+Allows for two consecutive shots before the pump requires to be pulled back."
+Ithaca Model 37,"?18,500","$1,850 ",Loyalty 1,12 Gauge,"WIdely available civilian shotgun for home defense and hunting.
+Starts with a 4 Shell Capacity that can be upgraded to 6."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Handguns,,,,,
+Glock 21 Gen 4,"?15,000","$1,500 ",Loyalty 1,.45 ACP,"Widely mass produced handgun. 
+An upgraded varient from the 17, this time utilizing .45 ACP rounds."
+H&K USP Tactical,"?5,000",$500 ,Loyalty 1,.45 ACP,"Shironome's Service Pistol. 
+One of the better sidearm choices available, although it lacks electronic sight support."
+GSh-18,"?18,000","$1,800 ",Loyalty 1,9x19 mm,"Russian Handgun chambered in 9 x 19mm. 
+Large Magazine allows the user to fire off two shots rather than one."
+Beretta M93R,"?11,000","$1,100 ",Loyalty 2,9x19 mm,"A Modified M9 designed to fire in bursts. 
+Without it's stock, the stability and accuracy of this weapon is rather bad."
+Sig P226,"?8,000",$800 ,Loyalty 2,9x19 mm,"Highly modular handgun on par with the USP. 
+Features higher customizability as well as an Optic Mount."
+SIG P320,"?11,000","$1,100 ",Loyalty 2,9x19 mm,"New modular handgun being tested for official service use. 
+Extremely Ergodynamic, and feels good to shoot."
+H&K MK.23,"?25,000","$2,500 ",Loyalty 3,.45 ACP,"Next Generation Special Operations handgun for usage in over several climate scenarios. 
+It's rather bulky and heavy, but it comes with a Laser Module."
+Beretta PX4 Storm,"?8,500",$850 ,Loyalty 1,9x19 mm,"Beretta made Special Operations Handgun to work alongside the Beretta M9. 
+A rather balanced HG at that. Can't go wrong with it. Barely fits any customization."
+M1911A1 Custom,"?14,000","$1,400 ",Loyalty 1,.45 ACP,"Old M1911A1 design spec dating back to 1964, auctioned off at a local munitions house. 
+Surprisingly light-weight, and sports superior targeting capabilities."
+G18C,"?18,000","$1,800 ",Loyalty 2,9x19 mm,"Machine Pistol, capable of full auto fire. 
+The weapon itself can be modified to become a PDW of sorts, though it'll take some practice before hand."
+FN Five-Seven,"?30,000","$3,000 ",Loyalty 3,5.7x28 mm,"Belgium's 20 Round Modular Handgun. 
 It's caliber is exceptional against Armored Opponents. 
-Favorite Handgun for Spec-ops groups worldwide.",Loyalty 3,5.7x28 mm,,,,
-Mateba Unica-6,"?50,000","$5,000","Exquisitely unique auto-loading magnum.
-Created using Re-production Blueprints salvaged from Overseas Sorties",Loyalty 3,.357/44 Mag,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Favorite Handgun for Spec-ops groups worldwide."
+Mateba Unica-6,"?50,000","$5,000 ",Loyalty 3,.357/44 Mag,"Exquisitely unique auto-loading magnum.
+Created using Re-production Blueprints salvaged from Overseas Sorties"

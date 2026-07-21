@@ -1,175 +1,64 @@
-,,,,,,
-,,,,,,
-Self-Use Medical Items,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description,Requirements,,
-AI-2 Medikit,"?2,000",$200,"Soviet Issued Medical Aid Box, offers the bare necessities for healing and treating wounds.
-Extremely light, and looks a bit like a craft single.",Loyalty 1,,
-Aseptic Bandage,?500,$50,"Commercial Brand Gauze for dressing wounds.
-Not entirely strong in the field, but it does it's job.",Loyalty 1,,
-Morphine Injector,"?10,000","$1,000","Medication used to mediate severe pain. 
+Self-Use Medical Items,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description
+AI-2 Medikit,"?2,000",$200 ,Loyalty 1,"Soviet Issued Medical Aid Box, offers the bare necessities for healing and treating wounds.
+Extremely light, and looks a bit like a craft single."
+Aseptic Bandage,?500,$50 ,Loyalty 1,"Commercial Brand Gauze for dressing wounds.
+Not entirely strong in the field, but it does it's job."
+Morphine Injector,"?10,000","$1,000 ",Loyalty 1,"Medication used to mediate severe pain. 
 Acts directly towards the central nervous system. 
-Like Painkillers, except extremely effective and dangerous when misused.",Loyalty 1,,
-Seleine Painkillers,"?1,500",$150,"Cheap and Widely Spread Painkillers.
-Effects don't linger for long, but it is cheap. [Four Uses, each use takes two pills.]",Loyalty 1,,
-Splint,?500,$50,Common splint for fixing broken bones into place.,Loyalty 1,,
-Esmarch Tourniquet,?250,$25,Stops the flow of blood to prevent bloodloss. Reliable but slow to apply.,Loyalty 1,,
-De-tox Kit,"?4,000",$400,"Medical Kit specializing in removing radiation and or poison accumulated in the body. 
-Can be used to treat Chemical Burns. [Regens after Deployment]",Loyalty 1,,
-QuikClot Combat Gauze,?750,$75,"Packing Gauze specifically made to treat combat wounds when medical personnel are not available.
-Use in conjunction with other bandages to effectively stabilize gunshot wounds.",Loyalty 1,,
-Personal Aid Kit,"?12,500","$1,250","Basic Field Surgery Kit.
-Provides the means to preform surgery on your arms and legs, but not much else. [Four Uses]",Loyalty 1,,
-Army-Issue Aseptics,"?1,000",$100,"Military-Issued Gauze Bandage for dressing wounds.
-Due to the nature of it's design, it's effects are nearly immediate compared to commercial brands.",Loyalty 2,,
-CAR First Aid Kit,"?5,000",$500,Bare-bones First Aid Kit. Can only treat minor injuries.,Loyalty 2,,
-Salewa First Aid Kit,"?6,000",$600,"General Use First Aid Kit, able to treat standard injuries and lacerations.",Loyalty 2,,
-Surv12 Field Surgical Kit,"?25,000","$2,500","Advanced Field Surgery Kit.
-Able to heal severe injuries on the field, but takes quite a while. [Five Uses]",Loyalty 2,,
-Blood Transfuse Bag,"?10,000","$1,000","For usage alongside the Surv12 Field Kit. 
-Enables user to transfuse artifcial blood alongside healing injuries for maximum, temporary recovery.",Loyalty 2,,
-CAT Fast-Act Tourniquet,"?1,000",$100,"Fast Acting Tourniquet. Extremely straight forward, and is often time faster than a normal Esmarch. [Re-usable.]",Loyalty 2,,
-Augmentin Painkiller Pills,"?80,000","$8,000","State of the art Anti-Biotic utilized to treat a large array of bacterial infections, and to numb pain for extended periods of time
-[15 Uses, Single Pill.]",Loyalty 3,,
-IFAK Personal Aid Kit,"?10,000","$1,000","Military Issue First Aid Kit used before proper medical attention can be applied.
-Able to mediate severe injuries on-top of treating standard injuries and lacerations. [Can be Refilled for Half the Price.]",Loyalty 3,,
-CELOX Hemostatic Injector,"?2,000",$200,"Hemostatic Injector that prevents the applied wound from bleeding further. Extremely Useful in combat intense situations.
-{Does not take up an action during combat.]",Loyalty 3,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-General Use Items [Always Available],,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description,Requirements,,
-Military Issue MRE,"?1,000",$100,"Standard Issue MRE, given to those over prolonged periods of fighting. 
-It's engineered to be good for you, but some like to disagree.",Loyalty 1,,
-Protein Drink (Various),"?1,000",$100,"Protein Drink flavored in an assortment of flavors
-Not really noticable, but it tastes like you're drinking thick sludge half the time.",Loyalty 1,,
-Aquasapi Water Bottle,?500,$50,"Fresh and Purified Water using a CR-100 Water Filter. 
-Holds about 0.6L of Water. Internally Chilled.",Loyalty 1,,
-Instant Noodle Pack,?500,$50,"A Five Pack Assortment of various noodles ranging from Ramen to Yakisoba.
-Can be eaten as is or heated up properly as instructions stated.",Loyalty 1,,
-Field Cooking Kit,"?1,000",$100,"A Field Kitchen Kit consisting of metallic canteen cups, utensils and dry fuel.
-Relatively Heavy coming in at a total of 5 kgs.",Loyalty 1,,
-Camping Kit,"?1,000",$100,"Camping Set consisting of a setup tent and sleeping bag.
-Heavy, and often times used in operations where company support is sparse.",Loyalty 1,,
-Firestarter Set,"?1,000",$100,"Simple Firestarter set consisting of various dry fuels, tinder and lighters.",Loyalty 1,,
-Portable Battery Charger,?750,$75,"Portable Battery Charge for use in on-field battery charging.
-It is solar-powered, and as such does not require manual charging. (The option however is still available.)",Loyalty 1,,
-,,,,,,
-,,,,,,
-Combat Stimulants,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description,Requirements,,
-Adrenaline Stimulant,"?15,000","$1,500","Medical Adrenaline. Commerically available under the right circumstances, it's often used to enhance one's senses.",Loyalty 1,,
-Adenosine Injector,"?10,000","$1,000","Medical Injector for Regulating Heart Rate. Not particularly useful for combat purposes, but is handy for ensuring a patient's recovery after extensive on-field medical procedures.",Loyalty 1,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+Like Painkillers, except extremely effective and dangerous when misused."
+Seleine Painkillers,"?1,500",$150 ,Loyalty 1,"Cheap and Widely Spread Painkillers.
+Effects don't linger for long, but it is cheap. [Four Uses, each use takes two pills.]"
+Splint,?500,$50 ,Loyalty 1,Common splint for fixing broken bones into place.
+Esmarch Tourniquet,?250,$25 ,Loyalty 1,Stops the flow of blood to prevent bloodloss. Reliable but slow to apply.
+De-tox Kit,"?4,000",$400 ,Loyalty 1,"Medical Kit specializing in removing radiation and or poison accumulated in the body. 
+Can be used to treat Chemical Burns. [Regens after Deployment]"
+QuikClot Combat Gauze,?750,$75 ,Loyalty 1,"Packing Gauze specifically made to treat combat wounds when medical personnel are not available.
+Use in conjunction with other bandages to effectively stabilize gunshot wounds."
+Personal Aid Kit,"?12,500","$1,250 ",Loyalty 1,"Basic Field Surgery Kit.
+Provides the means to preform surgery on your arms and legs, but not much else. [Four Uses]"
+Army-Issue Aseptics,"?1,000",$100 ,Loyalty 2,"Military-Issued Gauze Bandage for dressing wounds.
+Due to the nature of it's design, it's effects are nearly immediate compared to commercial brands."
+CAR First Aid Kit,"?5,000",$500 ,Loyalty 2,Bare-bones First Aid Kit. Can only treat minor injuries.
+Salewa First Aid Kit,"?6,000",$600 ,Loyalty 2,"General Use First Aid Kit, able to treat standard injuries and lacerations."
+Surv12 Field Surgical Kit,"?25,000","$2,500 ",Loyalty 2,"Advanced Field Surgery Kit.
+Able to heal severe injuries on the field, but takes quite a while. [Five Uses]"
+Blood Transfuse Bag,"?10,000","$1,000 ",Loyalty 2,"For usage alongside the Surv12 Field Kit. 
+Enables user to transfuse artifcial blood alongside healing injuries for maximum, temporary recovery."
+CAT Fast-Act Tourniquet,"?1,000",$100 ,Loyalty 2,"Fast Acting Tourniquet. Extremely straight forward, and is often time faster than a normal Esmarch. [Re-usable.]"
+Augmentin Painkiller Pills,"?80,000","$8,000 ",Loyalty 3,"State of the art Anti-Biotic utilized to treat a large array of bacterial infections, and to numb pain for extended periods of time
+[15 Uses, Single Pill.]"
+IFAK Personal Aid Kit,"?10,000","$1,000 ",Loyalty 3,"Military Issue First Aid Kit used before proper medical attention can be applied.
+Able to mediate severe injuries on-top of treating standard injuries and lacerations. [Can be Refilled for Half the Price.]"
+CELOX Hemostatic Injector,"?2,000",$200 ,Loyalty 3,"Hemostatic Injector that prevents the applied wound from bleeding further. Extremely Useful in combat intense situations.
+{Does not take up an action during combat.]"
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+General Use Items [Always Available],,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description
+Military Issue MRE,"?1,000",$100 ,Loyalty 1,"Standard Issue MRE, given to those over prolonged periods of fighting. 
+It's engineered to be good for you, but some like to disagree."
+Protein Drink (Various),"?1,000",$100 ,Loyalty 1,"Protein Drink flavored in an assortment of flavors
+Not really noticable, but it tastes like you're drinking thick sludge half the time."
+Aquasapi Water Bottle,?500,$50 ,Loyalty 1,"Fresh and Purified Water using a CR-100 Water Filter. 
+Holds about 0.6L of Water. Internally Chilled."
+Instant Noodle Pack,?500,$50 ,Loyalty 1,"A Five Pack Assortment of various noodles ranging from Ramen to Yakisoba.
+Can be eaten as is or heated up properly as instructions stated."
+Field Cooking Kit,"?1,000",$100 ,Loyalty 1,"A Field Kitchen Kit consisting of metallic canteen cups, utensils and dry fuel.
+Relatively Heavy coming in at a total of 5 kgs."
+Camping Kit,"?1,000",$100 ,Loyalty 1,"Camping Set consisting of a setup tent and sleeping bag.
+Heavy, and often times used in operations where company support is sparse."
+Firestarter Set,"?1,000",$100 ,Loyalty 1,"Simple Firestarter set consisting of various dry fuels, tinder and lighters."
+Portable Battery Charger,?750,$75 ,Loyalty 1,"Portable Battery Charge for use in on-field battery charging.
+It is solar-powered, and as such does not require manual charging. (The option however is still available.)"
+,,,,
+,,,,
+Combat Stimulants,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description
+Adrenaline Stimulant,"?15,000","$1,500 ",Loyalty 1,"Medical Adrenaline. Commerically available under the right circumstances, it's often used to enhance one's senses."
+Adenosine Injector,"?10,000","$1,000 ",Loyalty 1,"Medical Injector for Regulating Heart Rate. Not particularly useful for combat purposes, but is handy for ensuring a patient's recovery after extensive on-field medical procedures."

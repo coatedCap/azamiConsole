@@ -1,267 +1,238 @@
-Headwear,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-6B47 Ratnik-BSh Helmet,"?30,000","$3,000","Ballistic Helmet in use by the Russian Military. 
-Has Helmet Mount for NVG Peripherals. [Armor Class 3]",Loyalty 1,,
-LZSh Light Helmet,"?28,000","$2,800","Lightweight Helmet made in Russia. 
-Inspired greatly by the Ops-Core FAST Helmet, but to a lesser, more cheaper degree. [Armor Class 3]",Loyalty 1,,
-Kiver-M Helmet,"?17,500","$1,750","Russian Ballistic Helmet with Covering. Does not support headphones, and limits hearing. 
-Its weight is alot lighter however compared to other helms. [Armor Class 3]",Loyalty 1,,
-SSSh-95 Sfera-S Helmet,"?50,000","$5,000","A similar model to the Kiver, featuring event stronger materials to ensure maximum protection. 
-Heavier as a result. [Armor Class 3]",Loyalty 1,,
-MSA ACH TC-2002 MICH Series Helm,"?80,000","$8,000","Modular ACH Helm, providing ample protection and comfort. 
-Low Profile Design allows usage of NVGs without weighing the user down. [Armor Class 3]",Loyalty 1,,
-MSA Gallet TC 800 High Cut Helm,"?75,000","$7,500","Ballistic Helmet in use by Police Forces and Special Forces alike. 
-Highly Modular Design allows for additional armor plating to be applied. [Armor Class 3]",Loyalty 1,,
-Diamond Age Bastion Helmet,"?95,000","$9,500","A simple, yet effective modular helmet akin to similar choices. 
-Features less customizability, but is effective at protecting the user from a closer range. [Armor Class 3]",Loyalty 1,,
-Ops-Core Fast MT Helm,"?100,000","$10,000","Extremely customizable ACH Platform favored by Special Forces around the world. 
-With good ballistics all-around, it's a very safe bet. [Armor Class 4]",Loyalty 1,,
-Crye Airframe ATX Helmet,"?85,000","$8,500","Unique Helmet Shape improves comfort for the user, all while upholding protection. 
-With additional modifcations available, the Airframe can be tweaked to any need. [Armor Class 4]",Loyalty 2,,
-Team Wendy Exfil Ballistic Helmet,"?95,000","$9,500","Recent Tactical Helmet Design out of the recent few years. 
+Headwear,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+6B47 Ratnik-BSh Helmet,"?30,000","$3,000 ",Loyalty 1,"Ballistic Helmet in use by the Russian Military. 
+Has Helmet Mount for NVG Peripherals. [Armor Class 3]"
+LZSh Light Helmet,"?28,000","$2,800 ",Loyalty 1,"Lightweight Helmet made in Russia. 
+Inspired greatly by the Ops-Core FAST Helmet, but to a lesser, more cheaper degree. [Armor Class 3]"
+Kiver-M Helmet,"?17,500","$1,750 ",Loyalty 1,"Russian Ballistic Helmet with Covering. Does not support headphones, and limits hearing. 
+Its weight is alot lighter however compared to other helms. [Armor Class 3]"
+SSSh-95 Sfera-S Helmet,"?50,000","$5,000 ",Loyalty 1,"A similar model to the Kiver, featuring event stronger materials to ensure maximum protection. 
+Heavier as a result. [Armor Class 3]"
+MSA ACH TC-2002 MICH Series Helm,"?80,000","$8,000 ",Loyalty 1,"Modular ACH Helm, providing ample protection and comfort. 
+Low Profile Design allows usage of NVGs without weighing the user down. [Armor Class 3]"
+MSA Gallet TC 800 High Cut Helm,"?75,000","$7,500 ",Loyalty 1,"Ballistic Helmet in use by Police Forces and Special Forces alike. 
+Highly Modular Design allows for additional armor plating to be applied. [Armor Class 3]"
+Diamond Age Bastion Helmet,"?95,000","$9,500 ",Loyalty 1,"A simple, yet effective modular helmet akin to similar choices. 
+Features less customizability, but is effective at protecting the user from a closer range. [Armor Class 3]"
+Ops-Core Fast MT Helm,"?100,000","$10,000 ",Loyalty 1,"Extremely customizable ACH Platform favored by Special Forces around the world. 
+With good ballistics all-around, it's a very safe bet. [Armor Class 4]"
+Crye Airframe ATX Helmet,"?85,000","$8,500 ",Loyalty 2,"Unique Helmet Shape improves comfort for the user, all while upholding protection. 
+With additional modifcations available, the Airframe can be tweaked to any need. [Armor Class 4]"
+Team Wendy Exfil Ballistic Helmet,"?95,000","$9,500 ",Loyalty 2,"Recent Tactical Helmet Design out of the recent few years. 
 Similar to that of the Ops-Cor FAST Helm, this helmet builds further upon user protection. 
-Highly Rated across the board. [Armor Class 4]",Loyalty 2,,
-Galvion Caiman Ballistic Helmet,"?90,000","$9,000","Lightweight Modular Helmet that prioitizes user weight and speed over customizability. 
-Lighter than other helms, all without the loss of protection quality. [Armor Class 4]",Loyalty 2,,
-Altyn Helmet,"?100,000","$10,000","Definitive Russian Heavy Ballistics Helmet, utilized the Spetznas Forces in 1980. 
-Features a clear sightline visor and maximum protection. Heavy and bulky. [Armor Class 5]",Loyalty 3,,
-Maska 1Sch Helmet,"?100,000","$10,000","Allows Communication between Members. 
-Not much else aside from that.",Loyalty 3,,
-Rys-T Helmet,"?200,000","$20,000","An improvement on the Altyn Helmet utilizing different materials. 
-Provides even better protection than the other and extends its durability even more. [Armor Class 5]",Loyalty 3,,
-Vulkan-5 Heavy Helmet,"?165,000","$16,500","The ultimate in Head Protection, the Vulkan-5 is at the top of it's class in protection, bar none.
-Featuring an exceedingly strong face-visor and good material ballistics, [Armor Class 5]",Loyalty 3,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-Earpieces/Headsets,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-Lite-OP Earpiece,"?15,000","$1,500","Allows Communication between Members. 
-Not much else aside from that.",Loyalty 1,,
-Ops-Core FAST RAC Headset,"?25,000","$2,500","Bare-minimum Ops-Core FAST Headset that allows for the amplifcation of sounds around the user. 
-Acceptable for it's weight, but it's amplifcation leaves alot to be desired.",Loyalty 1,,
-Peltor ComTac 2 Headset,"?28,000","$2,800","Common Use Amplification Headset used across the world. 
-Tried and tested, this headset is a reliable piece of equipment, light, and allows communication through radio.",Loyalty 1,,
-GSSh-01 Active Headset,"?15,000","$1,500","Russian-made Headset made to compete with the Ops Core FAST headset. 
-Provides a more secure head strap, at the cost of comfort to an extent. Reliable nonetheless without comms.",Loyalty 1,,
-Ops-Core Arc III Headset,"?30,000","$3,000","New Design Specification to be Field Tested, the Arc III aims to provide clear communications between squad members
-without sacrificing the utility of sound amplification.",Loyalty 1,,
-MSA Sordin Supreme PRO-X/L Headset,"?30,000","$3,000","A headset built upon the importance of sound over communication. 
-Using experimental tech, the lack of a traditional amp cord lowers weight, but provides some amplifcation through design.",Loyalty 2,,
-Peltor Tactical Sport Headset,"?25,500","$2,550","Tactical Headset specializing in ballistic support. 
-Provides no such amplifcation of sound, but can be plugged into a radio unit to hear comms.",Loyalty 2,,
-Gentex Ops-Core AMP Headphone,"?25,000","$2,500","Amplification Headset in use by the US Military. 
+Highly Rated across the board. [Armor Class 4]"
+Galvion Caiman Ballistic Helmet,"?90,000","$9,000 ",Loyalty 2,"Lightweight Modular Helmet that prioitizes user weight and speed over customizability. 
+Lighter than other helms, all without the loss of protection quality. [Armor Class 4]"
+Altyn Helmet,"?100,000","$10,000 ",Loyalty 3,"Definitive Russian Heavy Ballistics Helmet, utilized the Spetznas Forces in 1980. 
+Features a clear sightline visor and maximum protection. Heavy and bulky. [Armor Class 5]"
+Maska 1Sch Helmet,"?100,000","$10,000 ",Loyalty 3,"Allows Communication between Members. 
+Not much else aside from that."
+Rys-T Helmet,"?200,000","$20,000 ",Loyalty 3,"An improvement on the Altyn Helmet utilizing different materials. 
+Provides even better protection than the other and extends its durability even more. [Armor Class 5]"
+Vulkan-5 Heavy Helmet,"?165,000","$16,500 ",Loyalty 3,"The ultimate in Head Protection, the Vulkan-5 is at the top of it's class in protection, bar none.
+Featuring an exceedingly strong face-visor and good material ballistics, [Armor Class 5]"
+,,,,
+,,,,
+,,,,
+,,,,
+Earpieces/Headsets,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+Lite-OP Earpiece,"?15,000","$1,500 ",Loyalty 1,"Allows Communication between Members. 
+Not much else aside from that."
+Ops-Core FAST RAC Headset,"?25,000","$2,500 ",Loyalty 1,"Bare-minimum Ops-Core FAST Headset that allows for the amplifcation of sounds around the user. 
+Acceptable for it's weight, but it's amplifcation leaves alot to be desired."
+Peltor ComTac 2 Headset,"?28,000","$2,800 ",Loyalty 1,"Common Use Amplification Headset used across the world. 
+Tried and tested, this headset is a reliable piece of equipment, light, and allows communication through radio."
+GSSh-01 Active Headset,"?15,000","$1,500 ",Loyalty 1,"Russian-made Headset made to compete with the Ops Core FAST headset. 
+Provides a more secure head strap, at the cost of comfort to an extent. Reliable nonetheless without comms."
+Ops-Core Arc III Headset,"?30,000","$3,000 ",Loyalty 1,"New Design Specification to be Field Tested, the Arc III aims to provide clear communications between squad members
+without sacrificing the utility of sound amplification."
+MSA Sordin Supreme PRO-X/L Headset,"?30,000","$3,000 ",Loyalty 2,"A headset built upon the importance of sound over communication. 
+Using experimental tech, the lack of a traditional amp cord lowers weight, but provides some amplifcation through design."
+Peltor Tactical Sport Headset,"?25,500","$2,550 ",Loyalty 2,"Tactical Headset specializing in ballistic support. 
+Provides no such amplifcation of sound, but can be plugged into a radio unit to hear comms."
+Gentex Ops-Core AMP Headphone,"?25,000","$2,500 ",Loyalty 2,"Amplification Headset in use by the US Military. 
 Provides the best in surround amplifcation sound design, all while being comfortable to use. 
-Can be mounted onto any Ops-Core FAST Helms.",Loyalty 2,,
-SEI Opticore Headphones,"?18,900","$1,890","Sound Amplification and Dampening Headset developed by Shironome R&D. Curated from multiple sources, Many currently
-employed by the company have greatly praised it's comfort and usage on the field.",Loyalty 2,,
-OPS-MEN M32 Electric Headset,"?55,000","$5,500","Large-headset specializing in ballistics protection. 
-There is some sembelance of sound amplification, but it is rather poor compared to others.",Loyalty 3,,
-XCEL 500BT Digital Headset,"?52,500","$5,250","Headphones used primarily to protect the user's hearing. 
-Useful primarily in CQC Enviroments, where sounds are not too sensitive.",Loyalty 3,,
-Razor Co Digital Headset,"?60,000","$6,000","New Brand Digital Headset, specializing in communications and ballistics protection. 
-Used in multiple SWAT teams in the Americas as of late.",Loyalty 3,,
-Peltor ComTac 4 Headphones,"?85,700","$8,570","Improving upon an already great design, the ComTac 4 is the be-all, end all headphone set, providing excellent sound amplification
-and dampening, while operating on it's own battery pack, nullifying electronic pulse distruptions.",Loyalty 3,,
-,,,,,,
-,,,,,,
-Face Cover,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-Shemagh,?500,$50,"An ordinary scarf. Adds resistance against gas. 
+Can be mounted onto any Ops-Core FAST Helms."
+SEI Opticore Headphones,"?18,900","$1,890 ",Loyalty 2,"Sound Amplification and Dampening Headset developed by Shironome R&D. Curated from multiple sources, Many currently
+employed by the company have greatly praised it's comfort and usage on the field."
+OPS-MEN M32 Electric Headset,"?55,000","$5,500 ",Loyalty 3,"Large-headset specializing in ballistics protection. 
+There is some sembelance of sound amplification, but it is rather poor compared to others."
+XCEL 500BT Digital Headset,"?52,500","$5,250 ",Loyalty 3,"Headphones used primarily to protect the user's hearing. 
+Useful primarily in CQC Enviroments, where sounds are not too sensitive."
+Razor Co Digital Headset,"?60,000","$6,000 ",Loyalty 3,"New Brand Digital Headset, specializing in communications and ballistics protection. 
+Used in multiple SWAT teams in the Americas as of late."
+Peltor ComTac 4 Headphones,"?85,700","$8,570 ",Loyalty 3,"Improving upon an already great design, the ComTac 4 is the be-all, end all headphone set, providing excellent sound amplification
+and dampening, while operating on it's own battery pack, nullifying electronic pulse distruptions."
+,,,,
+,,,,
+Face Cover,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+Shemagh,?500,$50 ,Loyalty 1,"An ordinary scarf. Adds resistance against gas. 
 Can be worn half-faced, or full cover. 
-Comes in a variety of colors.",Loyalty 1,,
-Ballistic Facemask,"?1,000",$100,"Heavy-Duty Ballistic Facemask. 
+Comes in a variety of colors."
+Ballistic Facemask,"?1,000",$100 ,Loyalty 1,"Heavy-Duty Ballistic Facemask. 
 For taking on challanges head on. 
-Incompatible with Helmets, but strong enough to withstand some shots before breaking.",Loyalty 1,,
-Cold Weather Scarf,?700,$70,"Neckwear primarily for user comfort and warmth. 
-Calms the nerves, and keeps body tempertures around the neck regulated.",Loyalty 1,,
-S10 NBC Respirator,"?25,000","$2,500","Negates effect of Hazardous Gas, but limits field of vision slightly. 
+Incompatible with Helmets, but strong enough to withstand some shots before breaking."
+Cold Weather Scarf,?700,$70 ,Loyalty 1,"Neckwear primarily for user comfort and warmth. 
+Calms the nerves, and keeps body tempertures around the neck regulated."
+S10 NBC Respirator,"?25,000","$2,500 ",Loyalty 1,"Negates effect of Hazardous Gas, but limits field of vision slightly. 
 Applicable to Armor Class 3 and 4 Helmets.
-The Visor Tint is Customizable.",Loyalty 1,,
-3-Hole Balaclava,?900,$90,"Full on Facecover, with holes around the eyes and mouth. 
-Keeps the face warm, and removes the uncomfortable feeling of breathing through a full balaclava.",Loyalty 1,,
-Cold Fear Infrared Balaclava,"?1,500",$150,"Keeps the user's face warm with special technological materials. 
-Slightly uncomfortable outside of extreme enviroments.",Loyalty 2,,
-Maska 1Sch Attachable Faceshield,"?95,000","$9,500","Ballistic Face-mask. 
-Extremely limits vision of the user in turn for face protection. [Armor Class 4]",Loyalty 2,,
-Team Wendy Exfil Faceshield,N/A,N/A,[Armor Class 3],Loyalty 2,,
-Vulkan-5 Face Shield,"?100,000","$10,000","Ballistic Glass Visor. 
-Extremely strong and used to negate most impacts towards the face. [Armor Class 5]",Loyalty 3,,
-Altyn Face Shield,"?250,000","$25,000","Face-Mask featuring a goggles like visor. 
-Gives a good bit of perspective and is decent at face protection. [Armor Class 4]",Loyalty 3,,
-Rys-T Face Shield,"?195,000","$19,500","Similar to the Altyn Face Shield, but heavier, providing better protection to the user. [Armor Class 5]",Loyalty 3,,
-Crye Airframe Chops,"?100,000","$10,000",Side-panels for the AirFrame Helmet. Provides some protection to the face. [Armor Class 3],Loyalty 3,,
-Ops-Core Fast Side Armor,"?200,000","$20,000",Ear-panels for the Ops-Core FAST Helmet without sacrificing headset compatability. [Armor Class 4],Loyalty 3,,
-Caiman Ballistic Guard Mandible,"?165,000","$16,500","Ballistic Half-Mask for use in Ops-Core FAST Helmets. 
-The design is sleek, and provides protection without compromising comfort. [Armor Class 4]",Loyalty 3,,
-,,,,,,
-,,,,,,
-,,,,,,
-Eyewear,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-Crossbow Tactical Glasses,?500,$50,"Expertly crafted pointman glasses for the head of the squad. 
-Comfortable and reliable. High Resistance to Flashbangs",Loyalty 1,,
-Cross-Com Glasses,"?10,000","$1,000",Update to the Radio System. Supports on-screen map display..,Loyalty 1,,
-Pyramex Proximity Safety Glasses,?250,$25,"Mass produced Military Specs with flash resistance in mind. 
-Slightly uncomfortable to wear. Low Resistance to Flashbangs",Loyalty 1,,
-SI M Frame Safety Glasses,?250,$25,"Mass produced Military Specs with flash resistance in mind. 
-Conforms to the face nicely. Low Resistance to Flashbangs",Loyalty 1,,
-Gascan Glasses,"?1,000",$100,Oakley-made Glasses. The crossbow's less pricey option. Medium Resistance to Flashbangs.,Loyalty 1,,
-6B35 Anti-Fragmentaition Glasses,"?1,500",$150,"Tactical Goggles made for the Russian Military. 
-Provides a sembelance of ballistic protection, and protects the eyes from weather conditions.",Loyalty 1,,
-Anti-Fragmentation Glasses,"?1,500",$150,"Widely Used Military Goggles utilized by a number of military powers. 
-Doesn't support ballistic protection, but provides semi protection from flashbangs and hazardous gas.",Loyalty 2,,
-Pointman Specs,?400,$40,Run of the Mill Specs run by Special Forces around the world. Medium Resistance to Flashbangs.,Loyalty 2,,
-Aviator Glasses,"?1,500",$150,"A pair of Aviators. Though not designed with flashbang resistance in mind, it does the job all the same. 
-These are famous. Medium Resistance to Flashbangs",Loyalty 2,,
-Reserve Sunglasses,"?1,000",$100,"A pair of Hipster Glasses, modified with special lenses. 
-For those DIY Nerds. Medium Resistance to Flashbangs",Loyalty 2,,
-Desert Locust Tinted Goggles,"?4,000",$400,"Tinted Ballistic Goggles often utilized by American Military Servicemen. Doubling as a pair of sunglasses makes it rather popular
-in the Middle-Eastern Theater.",Loyalty 2,,
-Edge Tactical Eyewear,"?1,000",$100,"Specialty Eyewear worn by Field Operatives on Light Patrols and Security Details. On top of having resistance against Flashes,
-Users have found themselves recovering faster from concussive effects faster.",Loyalty 2,,
-ROTHCO ANSI Ballistic Goggles,"?6,000",$600,"Highly Developmental Fork of Ballistic Goggles. Compared to the commericial varient, these goggles provide the maximum amount
-of protection against grenade shrapnel and other debris.",Loyalty 3,,
-Digi-Com Glasses,"?200,000","$20,000","Fully Realized Cross-Com Glasses, providing further information displays including the current status of it's user as well as an
-integrated on-screen GPS System.",Loyalty 3,,
-,,,,,,
-Body Armor [Armored Rigs will be applied first in terms of durability.],,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-PACA Soft Armor,"?5,000",$500,"Basic Ballistic Vest for Law Enforcement Forces across the world. 
-Stops small caliburs, but virtually useless against any sort of rifle. It's bad, but better than nothing. [Armor Class 1]",Loyalty 1,,
-Blackhawk Strike Commando Armor,"?28,000","$2,800","Company Issued Body Armor. 
-Provides the most protection to Light Arms Fire and Shrapnel. Covers most of the upper body. [Armor Class 3]",Loyalty 1,,
-Blackhawk Strike Recon Armored Vest,"?27,500","$2,750","Company Issued Body Armor. 
-Provides the best movement ability at the cost of protection. Does not cover the stoamch. [Armor Class 3]",Loyalty 1,,
-Blackhawk Strike Lightweight Vest,"?26,500","$2,650","Company Issued Body Armor. 
-Provides a good balance of protection and balance. Does not cover the stomach. Covers the shoulders. [Armor Class 3]",Loyalty 1,,
-TacTec 5.11 Tactical Plate Carrier,"?150,000","$15,000","An all in one package for body armor, acting as both a carrier and a rig at the same time. Incompatible with Chest Rigs. 
-Carries 8 mags, 2 grenades, and 2 spots for designated flares. [Armor Class 4]",Loyalty 1,,
-Highcom Trooper TFO Armor,"?125,000","$12,500","Lightweight Plate Carrier popular with most PMCs.
-Provides ample chest protection, while leaving the stomach exposed. [Armor Class 4]",Loyalty 1,,
-FORT Redut-M Body Armor,"?185,000","$18,500","Body Armor in use by the FSB. 
+The Visor Tint is Customizable."
+3-Hole Balaclava,?900,$90 ,Loyalty 1,"Full on Facecover, with holes around the eyes and mouth. 
+Keeps the face warm, and removes the uncomfortable feeling of breathing through a full balaclava."
+Cold Fear Infrared Balaclava,"?1,500",$150 ,Loyalty 2,"Keeps the user's face warm with special technological materials. 
+Slightly uncomfortable outside of extreme enviroments."
+Maska 1Sch Attachable Faceshield,"?95,000","$9,500 ",Loyalty 2,"Ballistic Face-mask. 
+Extremely limits vision of the user in turn for face protection. [Armor Class 4]"
+Team Wendy Exfil Faceshield,N/A,N/A,Loyalty 2,[Armor Class 3]
+Vulkan-5 Face Shield,"?100,000","$10,000 ",Loyalty 3,"Ballistic Glass Visor. 
+Extremely strong and used to negate most impacts towards the face. [Armor Class 5]"
+Altyn Face Shield,"?250,000","$25,000 ",Loyalty 3,"Face-Mask featuring a goggles like visor. 
+Gives a good bit of perspective and is decent at face protection. [Armor Class 4]"
+Rys-T Face Shield,"?195,000","$19,500 ",Loyalty 3,"Similar to the Altyn Face Shield, but heavier, providing better protection to the user. [Armor Class 5]"
+Crye Airframe Chops,"?100,000","$10,000 ",Loyalty 3,Side-panels for the AirFrame Helmet. Provides some protection to the face. [Armor Class 3]
+Ops-Core Fast Side Armor,"?200,000","$20,000 ",Loyalty 3,Ear-panels for the Ops-Core FAST Helmet without sacrificing headset compatability. [Armor Class 4]
+Caiman Ballistic Guard Mandible,"?165,000","$16,500 ",Loyalty 3,"Ballistic Half-Mask for use in Ops-Core FAST Helmets. 
+The design is sleek, and provides protection without compromising comfort. [Armor Class 4]"
+,,,,
+,,,,
+,,,,
+Eyewear,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+Crossbow Tactical Glasses,?500,$50 ,Loyalty 1,"Expertly crafted pointman glasses for the head of the squad. 
+Comfortable and reliable. High Resistance to Flashbangs"
+Cross-Com Glasses,"?10,000","$1,000 ",Loyalty 1,Update to the Radio System. Supports on-screen map display..
+Pyramex Proximity Safety Glasses,?250,$25 ,Loyalty 1,"Mass produced Military Specs with flash resistance in mind. 
+Slightly uncomfortable to wear. Low Resistance to Flashbangs"
+SI M Frame Safety Glasses,?250,$25 ,Loyalty 1,"Mass produced Military Specs with flash resistance in mind. 
+Conforms to the face nicely. Low Resistance to Flashbangs"
+Gascan Glasses,"?1,000",$100 ,Loyalty 1,Oakley-made Glasses. The crossbow's less pricey option. Medium Resistance to Flashbangs.
+6B35 Anti-Fragmentaition Glasses,"?1,500",$150 ,Loyalty 1,"Tactical Goggles made for the Russian Military. 
+Provides a sembelance of ballistic protection, and protects the eyes from weather conditions."
+Anti-Fragmentation Glasses,"?1,500",$150 ,Loyalty 2,"Widely Used Military Goggles utilized by a number of military powers. 
+Doesn't support ballistic protection, but provides semi protection from flashbangs and hazardous gas."
+Pointman Specs,?400,$40 ,Loyalty 2,Run of the Mill Specs run by Special Forces around the world. Medium Resistance to Flashbangs.
+Aviator Glasses,"?1,500",$150 ,Loyalty 2,"A pair of Aviators. Though not designed with flashbang resistance in mind, it does the job all the same. 
+These are famous. Medium Resistance to Flashbangs"
+Reserve Sunglasses,"?1,000",$100 ,Loyalty 2,"A pair of Hipster Glasses, modified with special lenses. 
+For those DIY Nerds. Medium Resistance to Flashbangs"
+Desert Locust Tinted Goggles,"?4,000",$400 ,Loyalty 2,"Tinted Ballistic Goggles often utilized by American Military Servicemen. Doubling as a pair of sunglasses makes it rather popular
+in the Middle-Eastern Theater."
+Edge Tactical Eyewear,"?1,000",$100 ,Loyalty 2,"Specialty Eyewear worn by Field Operatives on Light Patrols and Security Details. On top of having resistance against Flashes,
+Users have found themselves recovering faster from concussive effects faster."
+ROTHCO ANSI Ballistic Goggles,"?6,000",$600 ,Loyalty 3,"Highly Developmental Fork of Ballistic Goggles. Compared to the commericial varient, these goggles provide the maximum amount
+of protection against grenade shrapnel and other debris."
+Digi-Com Glasses,"?200,000","$20,000 ",Loyalty 3,"Fully Realized Cross-Com Glasses, providing further information displays including the current status of it's user as well as an
+integrated on-screen GPS System."
+,,,,
+Body Armor [Armored Rigs will be applied first in terms of durability.],,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+PACA Soft Armor,"?5,000",$500 ,Loyalty 1,"Basic Ballistic Vest for Law Enforcement Forces across the world. 
+Stops small caliburs, but virtually useless against any sort of rifle. It's bad, but better than nothing. [Armor Class 1]"
+Blackhawk Strike Commando Armor,"?28,000","$2,800 ",Loyalty 1,"Company Issued Body Armor. 
+Provides the most protection to Light Arms Fire and Shrapnel. Covers most of the upper body. [Armor Class 3]"
+Blackhawk Strike Recon Armored Vest,"?27,500","$2,750 ",Loyalty 1,"Company Issued Body Armor. 
+Provides the best movement ability at the cost of protection. Does not cover the stoamch. [Armor Class 3]"
+Blackhawk Strike Lightweight Vest,"?26,500","$2,650 ",Loyalty 1,"Company Issued Body Armor. 
+Provides a good balance of protection and balance. Does not cover the stomach. Covers the shoulders. [Armor Class 3]"
+TacTec 5.11 Tactical Plate Carrier,"?150,000","$15,000 ",Loyalty 1,"An all in one package for body armor, acting as both a carrier and a rig at the same time. Incompatible with Chest Rigs. 
+Carries 8 mags, 2 grenades, and 2 spots for designated flares. [Armor Class 4]"
+Highcom Trooper TFO Armor,"?125,000","$12,500 ",Loyalty 1,"Lightweight Plate Carrier popular with most PMCs.
+Provides ample chest protection, while leaving the stomach exposed. [Armor Class 4]"
+FORT Redut-M Body Armor,"?185,000","$18,500 ",Loyalty 2,"Body Armor in use by the FSB. 
 Known for it's optimized armor elements and special damping-ventilation system.
-This vest is a good cost-effective pickup. [Armor Class 3]",Loyalty 2,,
-6B23-2 Ceramic Armor,"?145,000","$14,500","Armored Vest previously in use by Russian Forces. 
-Decent Protection and coverage, alongside lightweight materials. [Armor Class 3]",Loyalty 2,,
-6b13 Assault Ceramic Armor,"?155,000","$15,500","Main Armored Vest for European-based Contractors across Europe. 
-Good Protection all-around and decent weight allows for ease of movement. [Armor Class 3]",Loyalty 2,,
-BNTI Gzhel-K Armor Carrier,"?255,000","$25,500","Iniitally designed for Assualt Units in mind by the Ministry of Internal Affairs,.
-This Ceramic Armored Vest will protect you substantially, all while being light to the user. [Armor Class 4]",Loyalty 2,,
-IOTV Gen4 Assault Carrier,"?188,000","$18,800","Heavy Duty Armor that allows the user full rein over arm movement. 
-Covers most of the chest region. Less heavier than it's counterpart. [Armor Class 4]",Loyalty 3,,
-IOTV Gen4 Full Protection Carrier,"?275,000","$27,500","Heavy Duty Armor that allows the user full rein over arm movement. 
-Covers the upper body. Extremely heavy, but covers most of the upper body. {Armor Class 4}",Loyalty 3,,
-5.11 Hexgrid Plate Carrier,"?475,000","$47,500","Hexagon Design Carrier enables the lightest weight to protection ratio. 
-Does not cover the stomach. Intended use alongside chest rigs. [Armor Class 5]",Loyalty 3,,
-LBT 6094A Slick Plate Carrier,"?550,000","$55,000","Plate Carrier designed for maximum chest protection as well as superior weight. 
-Does not cover the stomach. [Armor Class 5]",Loyalty 3,,
-6B43 Zabralo-Sh 6A Body Armor,"?700,000","$70,000","Bulletproof Vest designed for protection against light arm fire, fragmentation, mines, and shrapnel. 
-Best in Protection Class, but extremely heavy. [Armor Class 5]",Loyalty 3,,
-Chest Rigs [Armored Rigs will be applied first in terms of durability.] [Small Pouches carry four small items.],,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-ANA Tactical M2 Armored Rig,"?80,000","$8,000","Company Issued Carrier Rig. 
+This vest is a good cost-effective pickup. [Armor Class 3]"
+6B23-2 Ceramic Armor,"?145,000","$14,500 ",Loyalty 2,"Armored Vest previously in use by Russian Forces. 
+Decent Protection and coverage, alongside lightweight materials. [Armor Class 3]"
+6b13 Assault Ceramic Armor,"?155,000","$15,500 ",Loyalty 2,"Main Armored Vest for European-based Contractors across Europe. 
+Good Protection all-around and decent weight allows for ease of movement. [Armor Class 3]"
+BNTI Gzhel-K Armor Carrier,"?255,000","$25,500 ",Loyalty 2,"Iniitally designed for Assualt Units in mind by the Ministry of Internal Affairs,.
+This Ceramic Armored Vest will protect you substantially, all while being light to the user. [Armor Class 4]"
+IOTV Gen4 Assault Carrier,"?188,000","$18,800 ",Loyalty 3,"Heavy Duty Armor that allows the user full rein over arm movement. 
+Covers most of the chest region. Less heavier than it's counterpart. [Armor Class 4]"
+IOTV Gen4 Full Protection Carrier,"?275,000","$27,500 ",Loyalty 3,"Heavy Duty Armor that allows the user full rein over arm movement. 
+Covers the upper body. Extremely heavy, but covers most of the upper body. {Armor Class 4}"
+5.11 Hexgrid Plate Carrier,"?475,000","$47,500 ",Loyalty 3,"Hexagon Design Carrier enables the lightest weight to protection ratio. 
+Does not cover the stomach. Intended use alongside chest rigs. [Armor Class 5]"
+LBT 6094A Slick Plate Carrier,"?550,000","$55,000 ",Loyalty 3,"Plate Carrier designed for maximum chest protection as well as superior weight. 
+Does not cover the stomach. [Armor Class 5]"
+6B43 Zabralo-Sh 6A Body Armor,"?700,000","$70,000 ",Loyalty 3,"Bulletproof Vest designed for protection against light arm fire, fragmentation, mines, and shrapnel. 
+Best in Protection Class, but extremely heavy. [Armor Class 5]"
+Chest Rigs [Armored Rigs will be applied first in terms of durability.] [Small Pouches carry four small items.],,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+ANA Tactical M2 Armored Rig,"?80,000","$8,000 ",Loyalty 1,"Company Issued Carrier Rig. 
 Able to hold eight mags of any size alongside two grenades. 
-The Standard Carrier Rig for the everyday occasion. [Armor Class 3]",Loyalty 1,,
-ANA Tactical M1 Armored Rig,"?125,000","$12,500","Company Carrier Rig sent by order. 
+The Standard Carrier Rig for the everyday occasion. [Armor Class 3]"
+ANA Tactical M1 Armored Rig,"?125,000","$12,500 ",Loyalty 1,"Company Carrier Rig sent by order. 
 Holds two mags, but is able to carry six LMG/HMG Boxes and four grenades instead. 
-Extremely bulky in practicality's use. [Armor Class 3]",Loyalty 1,,
-Ars Arma A18 Skanda Carrier Rig,"?130,000","$13,000","Carrier Rig that is also armored. 
+Extremely bulky in practicality's use. [Armor Class 3]"
+Ars Arma A18 Skanda Carrier Rig,"?130,000","$13,000 ",Loyalty 1,"Carrier Rig that is also armored. 
 Carries 12 mags, with 5 slots for flares and grenades. 
-Utilized by Middle-Eastern PMCs operating in the sandbox. [Armor Class 4]",Loyalty 1,,
-BlackRock Chest Rig,"?175,000","$17,500","Chest Rig utilized the most by Shiori. 
+Utilized by Middle-Eastern PMCs operating in the sandbox. [Armor Class 4]"
+BlackRock Chest Rig,"?175,000","$17,500 ",Loyalty 1,"Chest Rig utilized the most by Shiori. 
 Designed for Light-weight Insertions in mind. 
-This chest rig enables the user quick access to six mags and grenades, with two side pouches enabling item priority for the user.",Loyalty 1,,
-Wartec TV-1100 Carrier Rig,"?150,000","$15,000","Unique Modular Carrier Rig that allows for different items to be stored in it's pouches. 
+This chest rig enables the user quick access to six mags and grenades, with two side pouches enabling item priority for the user."
+Wartec TV-1100 Carrier Rig,"?150,000","$15,000 ",Loyalty 2,"Unique Modular Carrier Rig that allows for different items to be stored in it's pouches. 
 Standard eight mag carries or two LMG/HMG Boxes, with ample space for other items. 
-[Max of Four Items] [Armor Class 4]",Loyalty 2,,
-Ars Arma CPC Mod.2 Carrier Rig,"?205,000","$20,500","Upgraded Varient of the Ars Arma CPC. 
+[Max of Four Items] [Armor Class 4]"
+Ars Arma CPC Mod.2 Carrier Rig,"?205,000","$20,500 ",Loyalty 2,"Upgraded Varient of the Ars Arma CPC. 
 Carries 10 mags by design, room for 3 grenades, 2 flares, and pouch-bag for item acquisation. 
-[Max of Four Items] [Armor Class 4]",Loyalty 2,,
-Blackhawk Chest Harness,"?175,000","$17,500","Unarmored Chest Rig that leaves protection to the Armor Rig instead. 
-Lightweight, and able to carry 12 mags, or 4 LMG Boxes.",Loyalty 2,,
-Direct Action Thunderbolt Chest Rig,"?200,000","$20,000","Lightweight Chest Rig allowing 12 mags to be carried, with a small space for two grenades to be held on to for ease of use.",Loyalty 2,,
-Wartech MK3 Chest Rig (TV-104),"?385,000","$38,500","Standard Rig utilized by Avalon Operators.
-Carries eight mags, with 2 grenade mounts, and a side flare mount for identifcation. Bought through After-Market Means.",Loyalty 2,,
-Belt-A + Belt-B Gear Rig,"?450,000","$45,000","Famous Chest Rig that saw usage during the Afghan War, adopted by the GRU in 1989. 
-Carries six mags, four LMG Boxes and 10 pouches for VOG-25 or M67 Hand-Grenades. Actually really heavy.",Loyalty 3,,
+[Max of Four Items] [Armor Class 4]"
+Blackhawk Chest Harness,"?175,000","$17,500 ",Loyalty 2,"Unarmored Chest Rig that leaves protection to the Armor Rig instead. 
+Lightweight, and able to carry 12 mags, or 4 LMG Boxes."
+Direct Action Thunderbolt Chest Rig,"?200,000","$20,000 ",Loyalty 2,"Lightweight Chest Rig allowing 12 mags to be carried, with a small space for two grenades to be held on to for ease of use."
+Wartech MK3 Chest Rig (TV-104),"?385,000","$38,500 ",Loyalty 2,"Standard Rig utilized by Avalon Operators.
+Carries eight mags, with 2 grenade mounts, and a side flare mount for identifcation. Bought through After-Market Means."
+Belt-A + Belt-B Gear Rig,"?450,000","$45,000 ",Loyalty 3,"Famous Chest Rig that saw usage during the Afghan War, adopted by the GRU in 1989. 
+Carries six mags, four LMG Boxes and 10 pouches for VOG-25 or M67 Hand-Grenades. Actually really heavy."
 "Backpacks
 [Small] = 12 Item Storage
 [Standard] = 24 Item Storage
-[Large] = 36 Item Storage",,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-5.11 Tactical Rush12 Backpack,"?3,500",$350,"Company Issue Backpack for Short-Term Operations. 
-The least amount of space to hold, but is rather light as a result. [Small Storage]",Loyalty 1,,
-5.11 Tactical Rush24 Backpack,"?5,000",$500,"Company Standard Issue Backpack. 
-Issued to everyone, and can be rebought should the need arise. [Standard Storage]",Loyalty 1,,
-5.11 Tactical Rush74 Backpack,"?8,000",$800,"Company Issue Backpack for Extended Operations within the sector. 
-The largest amount of space, but rather bulky and heavy. [Large Storage.]",Loyalty 1,,
-Direct Action Dragon Egg MK.II Pack,"?10,000","$1,000","Special Operations Pack designed in mind for user preformance and endurance over long periods of time.
-Lightweight and can carry ammo cartridges, additional mags, and medical supplies only. [Light Storage]",Loyalty 2,,
-Blackhawk Cyane Dynamic Pack,"?12,000","$1,200","Operation Pack featuring generous single person storage.
-Features a compartment for medical supplies. [Standard Storage]",Loyalty 2,,
-Blackhawk Titan Hydration Pack,"?15,000","$1,500","Bulky backpack for extended AO durations.
-Enough space to keep a camping kit and survival kits in, but not optimized for much else. [Large Storage]",Loyalty 2,,
-REEBOW Gear Tactical Backpack,"?20,000","$2,000","PMC Backpack of choice.
+[Large] = 36 Item Storage",,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+5.11 Tactical Rush12 Backpack,"?3,500",$350 ,Loyalty 1,"Company Issue Backpack for Short-Term Operations. 
+The least amount of space to hold, but is rather light as a result. [Small Storage]"
+5.11 Tactical Rush24 Backpack,"?5,000",$500 ,Loyalty 1,"Company Standard Issue Backpack. 
+Issued to everyone, and can be rebought should the need arise. [Standard Storage]"
+5.11 Tactical Rush74 Backpack,"?8,000",$800 ,Loyalty 1,"Company Issue Backpack for Extended Operations within the sector. 
+The largest amount of space, but rather bulky and heavy. [Large Storage.]"
+Direct Action Dragon Egg MK.II Pack,"?10,000","$1,000 ",Loyalty 2,"Special Operations Pack designed in mind for user preformance and endurance over long periods of time.
+Lightweight and can carry ammo cartridges, additional mags, and medical supplies only. [Light Storage]"
+Blackhawk Cyane Dynamic Pack,"?12,000","$1,200 ",Loyalty 2,"Operation Pack featuring generous single person storage.
+Features a compartment for medical supplies. [Standard Storage]"
+Blackhawk Titan Hydration Pack,"?15,000","$1,500 ",Loyalty 2,"Bulky backpack for extended AO durations.
+Enough space to keep a camping kit and survival kits in, but not optimized for much else. [Large Storage]"
+REEBOW Gear Tactical Backpack,"?20,000","$2,000 ",Loyalty 2,"PMC Backpack of choice.
 Best overall storage in ratio to it's estimated weight. 
-Good Upgrade from the company issued, at a steep cost. [Standard Storage.]",Loyalty 2,,
-3 Day Assault CL Military Rucksack,"?35,000","$3,500","Large Scale Backpack intended for the first three days of intense fighting.
+Good Upgrade from the company issued, at a steep cost. [Standard Storage.]"
+3 Day Assault CL Military Rucksack,"?35,000","$3,500 ",Loyalty 2,"Large Scale Backpack intended for the first three days of intense fighting.
 It's primary use is for the assurance of user survivability.
-Features a luxerious amount of storage, for an insane weight trade off. [Large Storage]",Loyalty 2,,
-Oakley Mechanism Backpack,"?40,000","$4,000","Modular Backpack that can have mini-bags attached to it to increase it's storage even further.
-Mini-bags sold at 1/4th the original price. [Standard Storage] [Large Storage when all four bags are attached.]",Loyalty 2,,
-Camelbak Tri-zip Backpack,"?60,000","$6,000",Lightweight Backpack made for comfort alongside user aerodynamics. [Small Storage],Loyalty 3,,
-Wartech Berkut VV-102 Backpack,"?65,000","$6,500","Russian-made Field Backpack issued to Russian Military Forces.
+Features a luxerious amount of storage, for an insane weight trade off. [Large Storage]"
+Oakley Mechanism Backpack,"?40,000","$4,000 ",Loyalty 2,"Modular Backpack that can have mini-bags attached to it to increase it's storage even further.
+Mini-bags sold at 1/4th the original price. [Standard Storage] [Large Storage when all four bags are attached.]"
+Camelbak Tri-zip Backpack,"?60,000","$6,000 ",Loyalty 3,Lightweight Backpack made for comfort alongside user aerodynamics. [Small Storage]
+Wartech Berkut VV-102 Backpack,"?65,000","$6,500 ",Loyalty 3,"Russian-made Field Backpack issued to Russian Military Forces.
 An extremely reliable standard issue bag, with a primary focus on fire-arm scavanging. 
-[Standard Storage with Two Weapon Sling Clips.]",Loyalty 3,,
-LBT-2670 Slim Field Medic Pack,"?95,000","$9,500","Corpsmen issued backpack meant to hold medical supplies.
-Can carry better medical supplies [Standard Storage]",Loyalty 3,,
-6SH118 Raid Backpack,"?100,000","$10,000","Largest Backpack available, competing only towards the Three Day Assault Pack.
-Looks alot like a sleeping roll, with the shared characteristic being heavy as shit. [Large Storage]",Loyalty 3,,
-Helmet Attachments,,,,,,
-Equipment Name,Ruble Cost,USD Cost,Description + Effect,Requirements,,
-Armasight NVG Mask,"?30,000","$3,000",Allows for mounting of NVGs.,Loyalty 1,,
-AN/PVS-14 NVG Monocular,"?51,000","$5,100","Monocle NVG. Quite long and mostly used for vision rather than continued use. 
-Batteries last twice as long with this equipment. Green Sight Picture.",Loyalty 1,,
-Armasight N-15 NVGs,"?45,000","$4,500","Civilian Model NVGs, not as effective as the Military Model. 
-Unique for it's Blue-ish Green Illumination.",Loyalty 1,,
-PNV-10T NVGs,"?60,000","$6,000","Psuedo Binocular NVG, utilized by many PMCs for it's availability and user-friendliness. 
-Features x8 Zoom in, with an adaquate green sight picture.",Loyalty 2,,
-Wilcox Skull Lock Head-Mount,"?40,000","$4,000","Allows for mounting of NVGs, with an ease of use compartment for the battery pack.",Loyalty 3,,
-GPNVG-18 NVGs,"?500,000","$50,000","Highly Expensive Nighttime Optics Device or NODs. 
+[Standard Storage with Two Weapon Sling Clips.]"
+LBT-2670 Slim Field Medic Pack,"?95,000","$9,500 ",Loyalty 3,"Corpsmen issued backpack meant to hold medical supplies.
+Can carry better medical supplies [Standard Storage]"
+6SH118 Raid Backpack,"?100,000","$10,000 ",Loyalty 3,"Largest Backpack available, competing only towards the Three Day Assault Pack.
+Looks alot like a sleeping roll, with the shared characteristic being heavy as shit. [Large Storage]"
+Helmet Attachments,,,,
+Equipment Name,Ruble Cost,USD Cost,Requirements,Description + Effect
+Armasight NVG Mask,"?30,000","$3,000 ",Loyalty 1,Allows for mounting of NVGs.
+AN/PVS-14 NVG Monocular,"?51,000","$5,100 ",Loyalty 1,"Monocle NVG. Quite long and mostly used for vision rather than continued use. 
+Batteries last twice as long with this equipment. Green Sight Picture."
+Armasight N-15 NVGs,"?45,000","$4,500 ",Loyalty 1,"Civilian Model NVGs, not as effective as the Military Model. 
+Unique for it's Blue-ish Green Illumination."
+PNV-10T NVGs,"?60,000","$6,000 ",Loyalty 2,"Psuedo Binocular NVG, utilized by many PMCs for it's availability and user-friendliness. 
+Features x8 Zoom in, with an adaquate green sight picture."
+Wilcox Skull Lock Head-Mount,"?40,000","$4,000 ",Loyalty 3,"Allows for mounting of NVGs, with an ease of use compartment for the battery pack."
+GPNVG-18 NVGs,"?500,000","$50,000 ",Loyalty 3,"Highly Expensive Nighttime Optics Device or NODs. 
 Feature panoramic view with it's unique design and is only utilized by the highest bidder. 
-Only few are in circulation at the moment.",Loyalty 3,,
-AN/PVS-21 Low Profile NVG,"?500,000","$50,000","Unique Nightvision that shares the same expiremental design as the GPNVG-18. 
-Can be utilized with the S10 NBC Gas-Mask.",Loyalty 3,,
-T-7 Thermal Goggles with NVG Mounts,"?4,500,000","$450,000","Thermal Vision Goggles utilizing NVG Mounts. 
-Displays in White-Hot Thermals. Beware of bright lights and hot sources.",Loyalty 3,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+Only few are in circulation at the moment."
+AN/PVS-21 Low Profile NVG,"?500,000","$50,000 ",Loyalty 3,"Unique Nightvision that shares the same expiremental design as the GPNVG-18. 
+Can be utilized with the S10 NBC Gas-Mask."
+T-7 Thermal Goggles with NVG Mounts,"?4,500,000","$450,000 ",Loyalty 3,"Thermal Vision Goggles utilizing NVG Mounts. 
+Displays in White-Hot Thermals. Beware of bright lights and hot sources."

@@ -1,105 +1,81 @@
-Assault Rifles (And LMGs),,,,,,,,,,,,,,,,,,,,
+Assault Rifles (And LMGs),,,,,
 "Bullet Name
 ","Ruble Cost
 ","USD Cost
-","Armor Penetration (Marked by ?/?) 
+","Requirements
+",Caliber,"Armor Penetration (Marked by ?/?) 
 (1-5, 5 being the highest penetration, 0 being bounce offs.)
-(Green Good Pen | Orange Decent Pen | Red Bad Pen)","Requirements
-",Caliber,,,,,,,,,,,,,,,
-.300 BPZ AAC BLK,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,.300 BLK,,,,,,,,,,,,,,,
-.300 AAC BLK AP,"?1,000",$100,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,.300 BLK,,,,,,,,,,,,,,,
-5.45x39mm BP,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,5.45x39mm,,,,,,,,,,,,,,,
-5.45x39mm FMJ,?100,$10,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,5.45x39mm,,,,,,,,,,,,,,,
-5.45x39mm PS,?150,$15,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,5.45x39mm,,,,,,,,,,,,,,,
-5.45x39mm PP,?250,$25,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,5.45x39mm,,,,,,,,,,,,,,,
-5.45x39mm BT,?350,$35,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,5.45x39mm,,,,,,,,,,,,,,,
-5.45x39mm BS,?400,$40,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,5.45x39mm,,,,,,,,,,,,,,,
-5.56x45mm M855,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,5.56x45mm,,,,,,,,,,,,,,,
-5.56x45mm M856,?250,$25,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,5.56x45mm,,,,,,,,,,,,,,,
-5.56x45mm M856A1,?400,$40,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,5.56x45mm,,,,,,,,,,,,,,,
-5.56x45mm M855A1,"?2,000",$200,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,5.56x45mm,,,,,,,,,,,,,,,
-7.62x39mm PS,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,7.62x39mm,,,,,,,,,,,,,,,
-7.62x39mm US,?200,$20,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,7.62x39mm,,,,,,,,,,,,,,,
-7.62x39mm T45M,?250,$25,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,7.62x39mm,,,,,,,,,,,,,,,
-7.62x39mm BP,?400,$40,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,7.62x39mm,,,,,,,,,,,,,,,
-Sub Machine Guns (And Applicable Handguns),,,,,,,,,,,,,,,,,,,,
+(Green Good Pen | Orange Decent Pen | Red Bad Pen)"
+.300 BPZ AAC BLK,Default,Default,Default,.300 BLK,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.300 AAC BLK AP,"?1,000",$100 ,Loyalty 3,.300 BLK,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm BP,Default,Default,Default,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm FMJ,?100,$10 ,Loyalty 1,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm PS,?150,$15 ,Loyalty 1,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm PP,?250,$25 ,Loyalty 1,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm BT,?350,$35 ,Loyalty 2,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.45x39mm BS,?400,$40 ,Loyalty 3,5.45x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.56x45mm M855,Default,Default,Default,5.56x45mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.56x45mm M856,?250,$25 ,Loyalty 1,5.56x45mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.56x45mm M856A1,?400,$40 ,Loyalty 2,5.56x45mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.56x45mm M855A1,"?2,000",$200 ,Loyalty 3,5.56x45mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x39mm PS,Default,Default,Default,7.62x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x39mm US,?200,$20 ,Loyalty 1,7.62x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x39mm T45M,?250,$25 ,Loyalty 1,7.62x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x39mm BP,?400,$40 ,Loyalty 3,7.62x39mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+Sub Machine Guns (And Applicable Handguns),,,,,
 "Bullet Name
 ","Ruble Cost
 ","USD Cost
-","Armor Penetration (Marked by ?/?) 
+","Requirements
+",Caliber,"Armor Penetration (Marked by ?/?) 
 (1-5, 5 being the highest penetration, 0 being bounce offs.)
-(Green Good Pen | Orange Decent Pen | Red Bad Pen)","Requirements
-",Caliber,,,,,,,,,,,,,,,
-.45 ACP FMJ,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,.45 ACP,,,,,,,,,,,,,,,
-.45 ACP Lasermatch FMJ,?50,$5,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,.45 ACP,,,,,,,,,,,,,,,
-.45 ACP AP,?700,$70,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,.45 ACP,,,,,,,,,,,,,,,
-4.6x30mm Action SX,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,4.6x30mm,,,,,,,,,,,,,,,
-4.6x30mm Subsonic SX,?300,$30,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,4.6x30mm,,,,,,,,,,,,,,,
-4.6x30mm FMJ SX,"?2,500",$250,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,4.6x30mm,,,,,,,,,,,,,,,
-5.7x28mm L191,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,5.7x28mm,,,,,,,,,,,,,,,
-5.7x28mm SS197SR,?300,$30,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,5.7x28mm,,,,,,,,,,,,,,,
-5.7x28mm SB193,"?1,500",$150,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,5.7x28mm,,,,,,,,,,,,,,,
-5.7x28mm SS190,"?2,500",$250,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,5.7x28mm,,,,,,,,,,,,,,,
-9x19mm Pst gzh,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,9x19mm,,,,,,,,,,,,,,,
-9x19mm AP 6.3,?300,$30,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,9x19mm,,,,,,,,,,,,,,,
-9x19mm 7N31,?700,$70,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,9x19mm,,,,,,,,,,,,,,,
-Sniper Rifles (And other Cartridges),,,,,,,,,,,,,,,,,,,,
+(Green Good Pen | Orange Decent Pen | Red Bad Pen)"
+.45 ACP FMJ,Default,Default,Default,.45 ACP,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.45 ACP Lasermatch FMJ,?50,$5 ,Loyalty 1,.45 ACP,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.45 ACP AP,?700,$70 ,Loyalty 3,.45 ACP,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+4.6x30mm Action SX,Default,Default,Default,4.6x30mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+4.6x30mm Subsonic SX,?300,$30 ,Loyalty 2,4.6x30mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+4.6x30mm FMJ SX,"?2,500",$250 ,Loyalty 3,4.6x30mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.7x28mm L191,Default,Default,Default,5.7x28mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.7x28mm SS197SR,?300,$30 ,Loyalty 3,5.7x28mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.7x28mm SB193,"?1,500",$150 ,Loyalty 3,5.7x28mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+5.7x28mm SS190,"?2,500",$250 ,Loyalty 3,5.7x28mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+9x19mm Pst gzh,Default,Default,Default,9x19mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+9x19mm AP 6.3,?300,$30 ,Loyalty 1,9x19mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+9x19mm 7N31,?700,$70 ,Loyalty 2,9x19mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+Sniper Rifles (And other Cartridges),,,,,
 "Bullet Name
 ","Ruble Cost
 ","USD Cost
-","Armor Penetration (Marked by ?/?) 
+","Requirements
+",Caliber,"Armor Penetration (Marked by ?/?) 
 (1-5, 5 being the highest penetration, 0 being bounce offs.)
-(Green Good Pen | Orange Decent Pen | Red Bad Pen)","Requirements
-",Caliber,,,,,,,,,,,,,,,
-.338 UPZ Lapua Magnum,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,.338 Lapua Magnum,,,,,,,,,,,,,,,
-.338 Lapua Magnum TAC-X,"?1,000",$100,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,.338 Lapua Magnum,,,,,,,,,,,,,,,
-.338 Lapua Magnum FMJ,"?4,000",$400,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,.338 Lapua Magnum,,,,,,,,,,,,,,,
-.44 Magnum,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,.44 Magnum,,,,,,,,,,,,,,,
-.50 BMG Round,"?2,000",$200,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,.50 BMG,,,,,,,,,,,,,,,
-12.7x108 HMG Round,"?2,000",$200,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,12.7x108,,,,,,,,,,,,,,,
-12x70mm Buckshot,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,12x70mm,,,,,,,,,,,,,,,
-12x70mm AP-20 Slug,?100,$10,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,12x70mm,,,,,,,,,,,,,,,
-12x70mm Flechette,?250,$25,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,12x70mm,,,,,,,,,,,,,,,
-15.2x169mm Round,"?2,000",$200,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,15.2x169mm,,,,,,,,,,,,,,,
-7.62x51mm M80,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,7.62x51mm,,,,,,,,,,,,,,,
-7.62x51mm BPZ FMJ,?250,$20,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,7.62x51mm,,,,,,,,,,,,,,,
-7.62x51mm TPZ SP,?300,$30,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 1,7.62x51mm,,,,,,,,,,,,,,,
-7.62x51mm M993,"?1,500",$150,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,7.62x51mm,,,,,,,,,,,,,,,
-7.62x54mmR FMJ,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,7.62x54mm,,,,,,,,,,,,,,,
-7.62x54mmR T-46M,?800,$80,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,7.62x54mm,,,,,,,,,,,,,,,
-7.62x54mmR 7N1 Sniper Cartridge,"?1,500",$150,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 3,7.62x54mm,,,,,,,,,,,,,,,
-Newer Cartridges,,,,,,,,,,,,,,,,,,,,
+(Green Good Pen | Orange Decent Pen | Red Bad Pen)"
+.338 UPZ Lapua Magnum,Default,Default,Default,.338 Lapua Magnum,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.338 Lapua Magnum TAC-X,"?1,000",$100 ,Loyalty 1,.338 Lapua Magnum,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.338 Lapua Magnum FMJ,"?4,000",$400 ,Loyalty 3,.338 Lapua Magnum,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.44 Magnum,Default,Default,Default,.44 Magnum,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+.50 BMG Round,"?2,000",$200 ,Loyalty 3,.50 BMG,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+12.7x108 HMG Round,"?2,000",$200 ,Loyalty 3,12.7x108,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+12x70mm Buckshot,Default,Default,Default,12x70mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+12x70mm AP-20 Slug,?100,$10 ,Loyalty 2,12x70mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+12x70mm Flechette,?250,$25 ,Loyalty 3,12x70mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+15.2x169mm Round,"?2,000",$200 ,Loyalty 3,15.2x169mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x51mm M80,Default,Default,Default,7.62x51mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x51mm BPZ FMJ,?250,$20 ,Loyalty 1,7.62x51mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x51mm TPZ SP,?300,$30 ,Loyalty 1,7.62x51mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x51mm M993,"?1,500",$150 ,Loyalty 3,7.62x51mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x54mmR FMJ,Default,Default,Default,7.62x54mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x54mmR T-46M,?800,$80 ,Loyalty 2,7.62x54mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+7.62x54mmR 7N1 Sniper Cartridge,"?1,500",$150 ,Loyalty 3,7.62x54mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+Newer Cartridges,,,,,
 "Bullet Name
 ","Ruble Cost
 ","USD Cost
-","Armor Penetration (Marked by ?/?) 
+","Requirements
+",Caliber,"Armor Penetration (Marked by ?/?) 
 (1-5, 5 being the highest penetration, 0 being bounce offs.)
-(Green Good Pen | Orange Decent Pen | Red Bad Pen)","Requirements
-",Caliber,,,,,,,,,,,,,,,
-.30-06 Springfield Rifle Cartridge,Default,Default,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Default,.30-06,,,,,,,,,,,,,,,
-40x46mm M433 (HEDP) Grenade,"?2,500",$250,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,40x46,,,,,,,,,,,,,,,
-40mm VOG-25 Underbarrel Grenade,"?2,500",$250,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?]),Loyalty 2,40mm,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
+(Green Good Pen | Orange Decent Pen | Red Bad Pen)"
+.30-06 Springfield Rifle Cartridge,Default,Default,Default,.30-06,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+40x46mm M433 (HEDP) Grenade,"?2,500",$250 ,Loyalty 2,40x46,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
+40mm VOG-25 Underbarrel Grenade,"?2,500",$250 ,Loyalty 2,40mm,Armor Class Penetration : (1[?]) (2[?]) (3[?]) (4[?]) (5[?])
