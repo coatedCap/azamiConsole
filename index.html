@@ -107,7 +107,7 @@
       }
 
       .table-wrap {
-        width: min(80vw, 1000px);
+        width: min(85vw, 1000px);
         margin: 0 auto;
         overflow-x: auto;
         border: 1px solid var(--border);
@@ -393,7 +393,7 @@
         statusEl.textContent = `Loading ${filePath}…`;
 
         try {
-          const response = await fetch(filePath);
+          const response = await fetch(`${filePath}?v=${Date.now()}`, { cache: 'no-store' });
           if (!response.ok) {
             throw new Error(`Request failed with status ${response.status}`);
           }
